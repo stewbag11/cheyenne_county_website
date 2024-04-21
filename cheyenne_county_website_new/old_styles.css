@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  color: #212121;
+  background-color: #f2f2f2;
+}
+
+body a {
+  color: #fcd12a;
+  transition: color 0.35s ease-in-out;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #073763;
+  text-decoration: none;
+}
+
+.topnav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #073763;
+  padding: 10px 330px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.topnav a {
+  transition: color 0.35s ease-in-out;
+}
+
+.topnav .links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.topnav .links li {
+  display: inline;
+  margin: 0 2px;
+}
+
+.topnav .links li a {
+  text-decoration: none;
+  color: #f2f2f2;
+  margin: 0 10px;
+}
+
+.topnav .links li a:hover {
+  color: #fcd12a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 330px;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 1.25rem;
+}
+
+.navbar .logo img {
+  width: 175px;
+  height: 125px;
+  background-color: #f2f2f2;
+}
+
+.navbar .links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.navbar .links li {
+  margin: 0 16px;
+}
+
+.navbar .links li a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+}
+
+.navbar .links li a:hover {
+  color: #fcd12a;
+}
+
+.navbar .links .active {
+  color: #fcd12a;
+}
+
+.navbar a {
+  transition: color 0.35s ease-in-out;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: 610px; 
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  color: #212121;
+  font-weight: bold;
+  transition: 0.35s ease-in-out;
+  border-radius: 5px;
+  user-select: none;
+  background-color: transparent;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(7, 55, 99, 0.8);
+  color: rgba(252, 209, 42, 0.8);
+}
+
+.welcome {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.welcome header {
+  font-size: 1.75rem;
+}
+
+.welcome header h1 {
+  display: inline;
+  border-bottom: 3px solid #073763;
+}
+
+.welcome, 
+.content {
+  margin-top: 20px;
+  font-size: 1.25rem;
+}
+
+.information {
+  display: flex;
+  justify-content: center; 
+  text-align: center; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hours,
+.notices {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  align-items: center;
+}
+
+.hours header,
+.notices header {
+  font-size: 1.5rem;
+}
+
+.hours header h2,
+.notices header h2 {
+  display: inline;
+  border-bottom: 3px solid #073763;
+  padding-bottom: 5px;
+}
+
+.hours .hours-list,
+.notices .notices-list {
+  margin-top: 25px;
+  list-style: none;
+}
+
+.notices .notices-list h4 {
+  border-top: 1px solid #073763;
+  padding-top: 20px;
+}
+
+.notices .notices-list a {
+  border-top: 1px solid #073763;
+  padding-top: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+  color: #212121;
+  position: relative;
+  border-top: 65px solid #073763;
+}
+
+footer .footer-copyright {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+  padding-top: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+footer .footer-copyright::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -25px;
+  width: calc(100% + 50px);
+  border-top: 1px solid #dcdcdc;
+}
+
+#top_btn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  border: none; 
+  outline: none; 
+  color: #212121; 
+  cursor: pointer; 
+  padding: 12px; 
+  border-radius: 5px; 
+  background-color: transparent; 
+  font-weight: bold;
+  transition: 0.35s ease-in-out;
+}
+
+#top_btn:hover {
+  background-color: rgba(7, 55, 99, 0.8);
+  color: rgba(252, 209, 42, 0.8);
+}

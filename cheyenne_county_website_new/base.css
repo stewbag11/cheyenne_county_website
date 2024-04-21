@@ -1,0 +1,176 @@
+/* base.css - CSS file called on every page for minor tweaks and constants to make the site easier to maintain */
+
+/* Color variables */
+:root {
+    --accent-color: hsl(44, 100%, 50%);
+    --background-color: hsl(0, 0%, 95%);
+    --border-color: hsl(239, 41%, 41%);
+    --border-color-alpha: hsla(239, 41%, 41%, 0.8);
+    --neutral-color: hsl(0, 0%, 75%);
+    --text-color: hsl(0, 0%, 13%);
+}
+
+/* Set box-sizing model, font family, and reset margin */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    letter-spacing: -0.01em;
+    margin: 0;
+}
+
+/* Accessible line-height */
+body {
+    background-color: var(--background-color);
+    line-height: 1.5;
+}
+
+/* Remove default typography styles */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* All other */
+body a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+body a:hover {
+    color: var(--border-color);
+    text-decoration: none;
+}
+
+/* Line break */
+.line-break {
+    padding-bottom: 1.5em;
+}
+
+/* Divider */
+hr.solid {
+    border-top: 5px solid var(--neutral-color);
+}
+
+hr.solid-big {
+    border-top: 75px solid var(--border-color);
+}
+
+/* Top navigation  */
+.top-nav {
+    align-items: center;
+    background-color: var(--border-color);
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+    list-style: none;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-right: 10em;
+    width: 100%;
+}
+
+.top-nav a {
+    transition: color 0.3s ease-in-out;
+}
+
+.top-nav li a {
+    color: var(--background-color);
+    padding: 0 1em;
+}
+
+.top-nav li a:hover {
+    color: var(--accent-color);
+}
+
+/* Navigation logo */
+.logo {
+    flex: 1;
+    padding-left: 10em;
+}
+
+.logo img {
+    height: auto;
+    max-width: 12em;
+}
+
+/* Main navigation */
+.main-nav {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    width: 100%;
+}
+
+.main-nav ul {
+    display: flex;
+    font-weight: bold;
+    list-style: none;
+    padding-right: 10em;
+    width: 100%;
+}
+
+.main-nav-links li a {
+    color: var(--text-color);
+    font-size: 1.25em;
+    padding: 0 1em;
+    transition: color 0.3s ease-in-out;
+}
+
+.main-nav-links .active {
+    color: var(--accent-color);
+}
+
+.main-nav-links li a:hover {
+    color: var(--accent-color);
+}
+
+/* Footer, copyright, and designed by */
+footer {
+    text-align: center;
+    text-wrap: balance;
+}
+
+footer .footer-content {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+footer .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.25em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+/* 
+===================
+   Media Queries   
+===================
+*/
+
+/*
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {}
+*/

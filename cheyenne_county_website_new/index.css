@@ -1,0 +1,91 @@
+/* Slideshow */
+.slideshow {
+    max-width: 100%;;
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    height: 32vw;
+    width: 100%;
+}
+
+/* Slideshow fade animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.25s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*
+.prev-btn,
+.next-btn {
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    color: var(--accent-color);
+    background-color: var(--border-color-alpha);
+}
+*/
+
+/* Welcome */
+.welcome {
+    margin: auto;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.welcome h1 {
+    font-size: 2.5em;
+}
+
+.welcome p {
+    font-size: 1.25em;
+}
+
+.information {
+    display: flex;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.hours,
+.notices {
+    align-items: center;
+    flex: 1;
+    font-size: 1.25em;
+}
+
+.hours li,
+.notices li {
+    list-style: none;
+}
+
+/* 
+===================
+   Media Queries   
+===================
+*/
