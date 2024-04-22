@@ -6,9 +6,8 @@
 Main styling for all pages no matter the content for performance, maintainability, and consistency
 */
 
-/* Color variables */
+/* Logo matched color variables */
 :root {
-    /* Logo matched colors */
     --accent-color: hsl(45, 80%, 47%); 
     --alt-accent-color: hsl(7, 56%, 38%);
     --background-color: hsl(0, 0%, 95%);
@@ -21,7 +20,7 @@ Main styling for all pages no matter the content for performance, maintainabilit
 /* Set box-sizing model, font family, and reset margin */
 * {
     box-sizing: border-box;
-    font-family: 'Nunito', Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: -0.01em;
     margin: 0;
     scroll-behavior: smooth;
@@ -121,7 +120,7 @@ hr.border-big {
 
 .top-nav a {
     transition: color 0.3s ease-in-out;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top-nav li a {
@@ -164,7 +163,7 @@ hr.border-big {
 
 .main-nav-links li a {
     color: var(--text-color);
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
     padding: 0 1em;
     transition: color 0.3s ease-in-out;
@@ -184,7 +183,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Footer */
