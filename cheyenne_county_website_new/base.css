@@ -8,16 +8,16 @@ Main styling for all pages no matter the content for performance, maintainabilit
 
 /* Logo matched color variables */
 :root {
-    --accent-color: hsl(45, 80%, 47%); 
-    --alt-accent-color: hsl(7, 56%, 38%);
-    --background-color: hsl(0, 0%, 95%);
-    --border-color: hsl(222, 22%, 12%);
-    --border-color-alpha: hsla(222, 22%, 12%, 0.8);
-    --neutral-color: hsl(80, 6%, 80%);
-    --text-color: hsl(0, 0%, 13%);
+    --accent-color: hsl(0 100% 17%);
+    --alt-accent-color: hsl(6 69% 35%);
+    --background-color: hsl(0 0% 94%);
+    --border-color: hsl(209 30% 19%);
+    --border-color-transparent: hsl(209 30% 19% / 0.9);
+    --neutral-color: hsl(0 0% 16%);
+    --text-color: hsl(210 29% 3%);
 }
 
-/* Set box-sizing model, font family, and reset margin */
+/* Set box-sizing model, font family, reset margin, and smooth scrolling */
 * {
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
@@ -60,7 +60,7 @@ body a {
 
 /* Change all content link hover color */
 body a:hover {
-    color: var(--border-color);
+    color: var(--alt-accent-color);
     text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ body a:hover {
 
 /* Small divider */
 hr.border-small {
-    border-top: 5px solid var(--neutral-color);
+    border-top: 5px solid var(--);
 }
 
 /* Big divider */
@@ -84,24 +84,24 @@ hr.border-big {
     animation: button-fade 0.3s ease-in-out;
     background-color: transparent;
     border: none;
-    border-radius: 10px;
-    bottom: 1.25em;
+    border-radius: 5px;
+    bottom: 2em;
     color: var(--text-color);
     cursor: pointer;
     display: none;
     font-size: 1.25em;
     font-weight: bold;
     outline: none;
-    padding: 0.5em;
+    padding: 0.3em;
     position: fixed;
-    right: 1.5em;
+    right: 1em;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    z-index: 99;
+    user-select: none;
 }
 
 #top-btn:hover {
-    background-color: var(--border-color);
-    color: var(--accent-color);    
+    background-color: var(--border-color-transparent);
+    color: var(--alt-accent-color);
 }
 
 /* Nav top */
@@ -112,60 +112,62 @@ hr.border-big {
     font-weight: bold;
     justify-content: flex-end;
     list-style: none;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-    padding-right: 10em;
+    padding: 6em;
+    padding-bottom: 0.15em;
+    padding-top: 0.15em;
+    user-select: none;
     width: 100%;
 }
 
 .top-nav a {
-    transition: color 0.3s ease-in-out;
     font-family: 'Roboto', sans-serif;
+    transition: color 0.3s ease-in-out;
 }
 
 .top-nav li a {
     color: var(--background-color);
-    padding: 0 1em;
+    padding: 1em;
 }
 
 .top-nav li a:hover {
-    color: var(--accent-color);
+    color: var(--alt-accent-color);
 }
 
 /* Nav logo */
 .logo {
+    display: flex;
     flex: 1;
-    padding-left: 10em;
+    user-select: none;
 }
 
 .logo img {
     height: auto;
-    max-width: 12em;
+    max-width: 10em;
 }
 
 /* Nav main */
 .main-nav {
     align-items: center;
     display: flex;
+    font-size: 1.25em;
+    font-weight: bold;
     justify-content: flex-end;
-    padding-bottom: 0.6em;
-    padding-top: 0.6em;
+    padding: 5em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    user-select: none;
     width: 100%;
 }
 
 .main-nav ul {
     display: flex;
-    font-weight: bold;
     list-style: none;
-    padding-right: 10em;
-    width: 100%;
 }
 
-.main-nav-links li a {
+.main-nav-links a {
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25em;
-    padding: 0 1em;
+    padding: 1em;
     transition: color 0.3s ease-in-out;
 }
 
@@ -173,8 +175,8 @@ hr.border-big {
     color: var(--accent-color);
 }
 
-.main-nav-links li a:hover {
-    color: var(--accent-color);
+.main-nav-links a:hover {
+    color: var(--alt-accent-color);
 }
 
 h1,
@@ -193,8 +195,8 @@ footer {
 }
 
 footer .footer-content {
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 footer .footer-copyright {

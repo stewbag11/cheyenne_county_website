@@ -6,7 +6,8 @@
 
 /* Slideshow */
 .slideshow {
-    max-width: 100%;;
+    max-width: 100%;
+    ;
     position: relative;
 }
 
@@ -17,6 +18,7 @@
 
 .slide img {
     height: 33vw;
+    user-select: none;
     width: 100%;
 }
 
@@ -24,6 +26,34 @@
 .slide-fade {
     animation-name: slide-fade;
     animation-duration: 1.25s;
+}
+
+/* Next and Prev buttons */
+.prev-btn,
+.next-btn {
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: -2em;
+    padding: 0.75em;
+    position: absolute;
+    top: 50%;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    user-select: none;
+    width: auto;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+    background-color: var(--border-color-transparent);
+    color: var(--alt-accent-color);
+}
+
+.next-btn {
+    border-radius: 5px;
+    right: 0;
 }
 
 /* Welcome */
@@ -44,7 +74,6 @@
 
 /* Information */
 .information {
-    align-items: center;
     display: flex;
     padding-bottom: 1.25em;
     padding-top: 1.25em;
@@ -68,6 +97,20 @@
 .hours li,
 .notices li {
     list-style: none;
+}
+
+.image {
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0.8em;
+    user-select: none;
+}
+
+.image img {
+    border: solid 2px var(--neutral-color);
+    height: 100%;
+    width: 28vw;
 }
 
 /* 
