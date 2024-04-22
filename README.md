@@ -8,6 +8,8 @@
 - Translate button
 - Color switcher (normal, dark, light, invert)
 
+- **Get old files back from Marcy, Wednesday 4/24**
+
 ### Overall needs
 - Responsive
 - Accessible (ADA Compliant)
@@ -15,4 +17,3 @@
 - Performant
 - Maintainable
 - Overall in-depth and detailed design throughout
-
