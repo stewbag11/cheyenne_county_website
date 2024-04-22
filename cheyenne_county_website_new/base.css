@@ -1,12 +1,20 @@
-/* base.css - CSS file called on every page for minor tweaks and constants to make the site easier to maintain */
+/*
+=================
++   base.css   +  
+=================
+
+Main styling for all pages no matter the content for performance, maintainability, and consistency
+*/
 
 /* Color variables */
 :root {
-    --accent-color: hsl(44, 100%, 50%);
+    /* Logo matched colors */
+    --accent-color: hsl(45, 80%, 47%); 
+    --alt-accent-color: hsl(7, 56%, 38%);
     --background-color: hsl(0, 0%, 95%);
-    --border-color: hsl(239, 41%, 41%);
-    --border-color-alpha: hsla(239, 41%, 41%, 0.8);
-    --neutral-color: hsl(0, 0%, 75%);
+    --border-color: hsl(222, 22%, 12%);
+    --border-color-alpha: hsla(222, 22%, 12%, 0.8);
+    --neutral-color: hsl(80, 6%, 80%);
     --text-color: hsl(0, 0%, 13%);
 }
 
@@ -16,9 +24,10 @@
     font-family: 'Roboto', Arial, sans-serif;
     letter-spacing: -0.01em;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
-/* Accessible line-height */
+/* Accessible line-height and main background color */
 body {
     background-color: var(--background-color);
     line-height: 1.5;
@@ -43,33 +52,60 @@ h6 {
     overflow-wrap: break-word;
 }
 
-/* All other */
+/* Add animation and color to all content links */
 body a {
     color: var(--accent-color);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
+/* Change all content link hover color */
 body a:hover {
     color: var(--border-color);
     text-decoration: none;
 }
 
-/* Line break */
+/* Line break via padding instead of <br> tags */
 .line-break {
-    padding-bottom: 1.5em;
+    padding-bottom: 1.25em;
 }
 
-/* Divider */
-hr.solid {
+/* Small divider */
+hr.border-small {
     border-top: 5px solid var(--neutral-color);
 }
 
-hr.solid-big {
+/* Big divider */
+hr.border-big {
     border-top: 75px solid var(--border-color);
 }
 
-/* Top navigation  */
+/* Scroll back top button */
+#top-btn {
+    animation: button-fade 0.3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    bottom: 1.25em;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    outline: none;
+    padding: 0.5em;
+    position: fixed;
+    right: 1.5em;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    z-index: 99;
+}
+
+#top-btn:hover {
+    background-color: var(--border-color);
+    color: var(--accent-color);    
+}
+
+/* Nav top */
 .top-nav {
     align-items: center;
     background-color: var(--border-color);
@@ -96,7 +132,7 @@ hr.solid-big {
     color: var(--accent-color);
 }
 
-/* Navigation logo */
+/* Nav logo */
 .logo {
     flex: 1;
     padding-left: 10em;
@@ -107,7 +143,7 @@ hr.solid-big {
     max-width: 12em;
 }
 
-/* Main navigation */
+/* Nav main */
 .main-nav {
     align-items: center;
     display: flex;
@@ -140,7 +176,7 @@ hr.solid-big {
     color: var(--accent-color);
 }
 
-/* Footer, copyright, and designed by */
+/* Footer */
 footer {
     text-align: center;
     text-wrap: balance;
@@ -159,9 +195,34 @@ footer .footer-copyright {
     padding-bottom: 0.3em;
 }
 
+/*
+==================
++    Animations   +
+==================
+*/
+@keyframes slide-fade {
+    from {
+        opacity: .75
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes button-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 /* 
 ===================
-   Media Queries   
++  Media Queries  +
 ===================
 */
 

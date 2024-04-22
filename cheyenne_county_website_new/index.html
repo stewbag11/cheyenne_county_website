@@ -1,3 +1,9 @@
+<!--
+==================
++   index.html   +
+==================
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,26 +13,47 @@
     <meta name="description"
         content="Welcome to Cheyenne County, Colorado! Learn about our county history, officials, departments, and more.">
     <title>Cheyenne County Colorado | Home</title>
+
+    <!-- Default styling -->
     <link rel="stylesheet" href="base.css">
+
+    <!-- Page specific styling -->
     <link rel="stylesheet" href="index.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google fonts for Roboto and Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Awesome font icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
+<!-- Content start -->
+
 <body>
-    <!-- Navigation -->
+
+    <!-- Scroll to top button -->
+    <button onclick="topFunction()" id="top-btn" title="Top"><i class="fas fa-chevron-up"></i></button>
+
     <nav>
+        <!-- Nav top -->
         <ul class="top-nav">
             <li><a href="#" aria-label="Jobs link">Jobs</a></li>
             <li><a href="https://www.localendar.com/public/ccadmin" aria-label="Calendar">Calendar</a></li>
-            <div id="google_translate_element"></div>
         </ul>
+        <!-- Nav top end -->
     </nav>
+    <!-- Nav main -->
     <header class="main-nav">
+        <!-- Nav logo -->
         <nav class="logo">
             <a href="index.html">
                 <img src="./imgs/county_logo.png" alt="Cheyenne County Logo">
             </a>
+            <!-- Nav logo end-->
         </nav>
         <nav class="main-nav-links">
             <ul>
@@ -38,22 +65,27 @@
             </ul>
         </nav>
     </header>
+    <!-- Nav main end -->
 
     <!-- Slideshow -->
     <div class="slideshow">
-        <div class="slide fade">
+        <!-- Slides -->
+        <div class="slide slide-fade">
             <img src="./imgs/cheyenne_county_courthouse.jpeg" alt="Cheyenne County Courthouse">
         </div>
-        <div class="slide fade">
+        <div class="slide slide-fade">
             <img src="./imgs/kit_carson_muesem.jpeg" alt="Kit Carson Museum">
         </div>
+        <!-- Slides end -->
     </div>
+    <!-- Slideshow end -->
+
     <!-- Next and prev buttons 
     <a class="prev-btn" onclick="plusSlides(-1)" aria-label="Previous slide"><i class="fa fa-chevron-left"></i></a>
     <a class="next-btn" onclick="plusSlides(1)" aria-label="Next slide"><i class="fa fa-chevron-right"></i></a>
     -->
 
-    <!-- Welcome section -->
+    <!-- Welcome -->
     <section class="welcome">
         <header>
             <h1>Welcome to Cheyenne County, CO</h1>
@@ -64,7 +96,9 @@
                 meeting agendas, county activities, and job openings. You are invited to browse our site to
                 learn
                 more about our county history, officials, and departments.</p>
+
             <div class="line-break"></div>
+
             <p>The town of Cheyenne Wells is the County seat and home of the Cheyenne County Courthouse. The
                 towns
                 of Kit Carson and Cheyenne Wells are incorporated, and the smaller towns of Arapahoe and Wild
@@ -72,69 +106,83 @@
                 remain unincorporated.</p>
         </div>
     </section>
+    <!-- Welcome end -->
+
     <div class="line-break"></div>
-    <hr class="solid">
-    <!-- Hours and Notcies section -->
-    <section class="information">
-        <section class="hours">
-            <article">
+
+    <!-- Border -->
+    <hr class="border-small">
+
+    <!-- Information -->
+    <div class="information">
+        <!-- Hours -->
+        <div class="hours">
+            <article>
                 <header>
                     <h2>Hours & Location</h2>
                 </header>
+                <ul>
+                    <li>
+                        <h3>Courthouse:</h3>
+                    <li><i class="fas fa-calendar"></i> | Monday to Friday</li>
+                    <li><i class="fas fa-clock"></i> | 08:00am - 04:00pm</li>
+                    <li><i class="fas fa-mountain"></i> | Mountain Time Zone</li>
+                </ul>
                 <div class="line-break"></div>
-                <li>
-                    <h3>Courthouse:</h3>
-                <li>Monday to Friday</li>
-                <li>08:00am - 04:00pm</li>
-                <li>Mountain Time Zone</li>
-                </li>
-                <div class="line-break"></div>
-                <li>
-                    <h3>Location:</h3>
-                <li>51 S 1st St E, Cheyenne Wells, CO 80810</li>
-                <li>(719)-767-5872</li>
-                <li><a href="./pdfs/county_map.pdf" aria-label="County Map">County Map</a></li>
-                </li>
-                </article>
-        </section>
+                <ul>
+                    <li>
+                        <h3>Location:</h3>
+                    <li><i class="fas fa-road"></i> | 51 S 1st St E, Cheyenne Wells, CO 80810</li>
+                    <li><i class="fas fa-phone"></i> | (719)-767-5872</li>
+                    <li><a href="./pdfs/county_map.pdf" aria-label="County Map">County Map</a></li>
+                </ul>
+            </article>
+        </div>
+        <!-- Hours end -->
 
-        <section class="notices">
+        <!-- Notices -->
+        <div class="notices">
             <article>
                 <header>
                     <h2>Notices</h2>
                 </header>
-                <div class="line-break"></div>
                 <p><strong>The County Clerk's Office will be closed on <em>Friday, April 19th</em> for staff
                         training. Sorry
                         for the inconvenience</strong></p>
             </article>
 
             <div class="line-break"></div>
+
             <article>
                 <h3>Archery and Sports Shooting Range Board Member Openings</h3>
-                <li>&#x2022; Annual Term</li>
-                <li>&#x2022; Must be 18 years of age or older</li>
-                <li>&#x2022; Must be a Cheyenne County, CO resident</li>
+                <ul>
+                    <!-- &#x2022; = bullet point -->
+                    <li>&#x2022; Annual Term</li>
+                    <li>&#x2022; Must be 18 years of age or older</li>
+                    <li>&#x2022; Must be a Cheyenne County, CO resident</li>
+                </ul>
                 <div class="line-break"></div>
-                <li>
-                    <p><strong>If you are interested in being appointed, please send a letter to:</strong></p>
-                <li>&#x2022; Cheyenne County Administrator</li>
-                <li>&#x2022; P.O. Box 567</li>
-                <li>&#x2022; Cheyenne Wells, CO 80810</li>
-                <li>&#x2022; ccadmin@rebeltec.net</li>
-                <li>&#x2022; County Administrator at Courthouse</li>
-                </li>
+                <p><strong>If you are interested in being appointed, please send a letter to:</strong></p>
+                <ul>
+                    <li>&#x2022; Cheyenne County Administrator</li>
+                    <li>&#x2022; P.O. Box 567</li>
+                    <li>&#x2022; Cheyenne Wells, CO 80810</li>
+                    <li>&#x2022; ccadmin@rebeltec.net</li>
+                    <li>&#x2022; County Administrator at Courthouse</li>
+                </ul>
             </article>
 
             <div class="line-break"></div>
+
             <article>
                 <h3><a href="./pdfs/county_equipment_notice.pdf" aria-label="County Equipment Notice">County
                         Equipment
                         Notice</a></h3>
-                <li>Legal publications for the County are published in the Kiowa County Independent newspaper.</li>
+                <p>Legal publications for the County are published in the Kiowa County Independent newspaper.</p>
             </article>
 
             <div class="line-break"></div>
+
             <article>
                 <h3><a href="./pdfs/new_road_public_hearing_notice.pdf"
                         aria-label="New Road Petition Public Hearing Notice">New Road Petition Public Hearing
@@ -146,13 +194,17 @@
             <article>
                 <h3><a href="https://public.coderedweb.com/CNE/en-US/BF4328413F44"
                         aria-label="Reverse 911 and Weather Alerts">Reverse 911 and Weather Alerts</a></h3>
-                <li>Click link to Register</li>
+                <p>Click link to Register</p>
             </article>
-        </section>
-    </section>
+        </div>
+        <!-- Notices end -->
+    </div>
+    <!-- Information end -->
 
-    <!-- Copyright and ADA compliance msg -->
-    <hr class="solid-big">
+    <!-- Big border -->
+    <hr class="border-big">
+
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <p>Cheyenne County is committed to providing equitable access to our services to all Coloradans. Our
@@ -168,22 +220,23 @@
                 disabilities and for requests for accommodations to any State of Colorado services. Visit the <a
                     href="#" aria-label="Contact page">Contact</a> page to learn more.</p>
         </div>
-        <hr class="solid">
+        <hr class="border-small">
         <div class="footer-copyright">
             <p>&copy; 2024 Cheyenne County, CO. All Rights Reserved</p>
             <p>Designed & Developed by <a href="https://www.linkedin.com/in/spencer-dennison-baa596274/"
-                    aria-label="By Spencer Dennison">Spencer Dennison</a></p>
+                    aria-label="Spencer Dennison link">Spencer Dennison</a></p>
         </div>
     </footer>
+    <!-- Footer end -->
 
-    <!-- JavaScript calls -->
+    <!-- JS for functionality -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="slideshow_auto.js"></script>
-    <script src="slideshow_buttons.js"></script>
-    <script src="translate.js"></script>
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+    <!-- Slideshow -->
+    <script src="slideshow_auto.js"></script>
+    <script src="slideshow_btns.js"></script>
+    <script src="to_top_btn.js"></script>
+    <!-- JS end -->
 </body>
 
 </html>

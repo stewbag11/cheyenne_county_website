@@ -1,3 +1,9 @@
+/*
+=========================
++   slideshow_btns.js   +
+=========================
+*/
+
 // Slideshow buttons
 let slideIndex = 1;
 

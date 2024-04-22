@@ -1,3 +1,9 @@
+/*
+=========================
++   slideshow_auto.js   +
+=========================
+*/
+
 // Auto slideshow
 let slideIndexAuto = 0;
 showSlidesAuto();

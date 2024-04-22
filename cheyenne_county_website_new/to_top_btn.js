@@ -1,3 +1,9 @@
+/*
+=====================
++   to_top_btn.js   +
+=====================
+*/
+
 // Get the button:
 let mybutton = document.getElementById("top-btn");
 
@@ -5,7 +11,7 @@ let mybutton = document.getElementById("top-btn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -16,4 +22,4 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-} 
+}  
