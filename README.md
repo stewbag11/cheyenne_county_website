@@ -1,3 +1,7 @@
+**Deadline 7/1**
+
+**Get old files back , Wednesday 4/24**
+
 ### To-Do
 - Slideshow function problems
 - Slideshow animation style settings
@@ -8,12 +12,10 @@
 - Translate button
 - Color switcher (normal, dark, light, invert)
 
-- **Get old files back from Marcy, Wednesday 4/24**
-
 ### Overall needs
 - Responsive
 - Accessible (ADA Compliant)
 - Clean / Minimal
 - Performant
 - Maintainable
-- Overall in-depth and detailed design throughout
+- Overall thoughtful and detailed design throughout
