@@ -1,16 +1,17 @@
 **Deadline 7/1**
 
-**Get old files back , Wednesday 4/24**
+**Get old files back , Wednesday 5/8**
 
 ### To-Do
-- Slideshow function problems
-- Slideshow animation style settings
-- Highlight color (mouse drag)
-- Media queries
-- Grow on hover effect
-- Search button or box ?
-- Translate button
-- Color switcher (normal, dark, light, invert)
+- Sales Tax (index.html)
+- Slideshow function problems (index.html)
+- Slideshow animation style settings (index.html)
+- Highlight color (mouse drag, index.html)
+- Grow on hover effect (all.css)
+- Search button or box ? (base.css)
+- Translate button (base.css)
+- Color switcher (normal, dark, light, invert, base.css)
+- Media queries (all.css)
 
 ### Overall needs
 - Responsive

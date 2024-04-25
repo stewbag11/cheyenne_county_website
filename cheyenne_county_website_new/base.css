@@ -85,16 +85,16 @@ hr.border-big {
     background-color: transparent;
     border: none;
     border-radius: 5px;
-    bottom: 2em;
+    bottom: 1.5em;
     color: var(--text-color);
     cursor: pointer;
     display: none;
     font-size: 1.25em;
     font-weight: bold;
     outline: none;
-    padding: 0.3em;
+    padding: 0.25em;
     position: fixed;
-    right: 1em;
+    right: 0.75em;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     user-select: none;
 }
@@ -112,7 +112,7 @@ hr.border-big {
     font-weight: bold;
     justify-content: flex-end;
     list-style: none;
-    padding: 6em;
+    padding: 7.5em;
     padding-bottom: 0.15em;
     padding-top: 0.15em;
     user-select: none;
@@ -131,6 +131,16 @@ hr.border-big {
 
 .top-nav li a:hover {
     color: var(--alt-accent-color);
+}
+
+/* Google translate */
+#google_translate_element img {
+    display: none;
+}
+
+#google_translate_element span {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Nav logo */
