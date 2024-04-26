@@ -5,12 +5,12 @@
 **About page by Wednesday 5/8**
 
 ### To-Do
-- Slideshow animation style settings (index.css)
+- Check Dreamweaver compatability
 - About page (about.html)
+- Media queries (all.css)
 - Highlight color (mouse drag, all.css)
 - Grow on hover effect (all.css)
 - Color switcher (normal, dark, light, invert, base.css)
-- Media queries (all.css)
 - Search button or box ? (base.css)
 
 ### Overall needs
