@@ -13,7 +13,6 @@
 - Search button or box ? (base.css)
 - Color switcher (normal, dark, light, invert, base.css)
 - Media queries (all.css)
-- Styling for translation button
 
 ### Overall needs
 - Responsive
