@@ -39,7 +39,7 @@
 <body>
 
     <!-- Scroll to top button -->
-    <button onclick="topFunction()" id="top-btn" title="Top"><i class="fas fa-chevron-up"></i></button>
+    <button onclick="topFunction()" id="top-btn" title="To Top"><i class="fas fa-chevron-up"></i></button>
 
     <nav>
         <!-- Nav top -->
@@ -65,10 +65,10 @@
         <nav class="main-nav-links">
             <ul>
                 <li><a class="active" href="index.html" aria-label="Home link">Home</a></li>
-                <li><a href="#" aria-label="About link">About</a></li>
-                <li><a href="#" aria-label="Officials link">Officials</a></li>
-                <li><a href="#" aria-label="Departments link">Departments</a></li>
-                <li><a href="#" aria-label="Contact link">Contact</a></li>
+                <li><a href="#" aria-label="About Link">About</a></li>
+                <li><a href="#" aria-label="Officials Link">Officials</a></li>
+                <li><a href="#" aria-label="Departments Link">Departments</a></li>
+                <li><a href="#" aria-label="Contact Link">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -81,16 +81,18 @@
             <img src="./imgs/welcome.jpeg" alt="Welcome to Colorado Sign">
         </div>
         <div class="slide slide-fade">
-            <img src="./imgs/windmills.jpeg" alt="Windmills in a Field">
+            <img src="./imgs/windmills.jpeg" alt="Windmills">
         </div>
         <div class="slide slide-fade">
-            <img src="./imgs/field_moon.jpeg" alt="Cows in a Field">
+            <img src="./imgs/grain_elevator.jpeg" alt="Grain Elevator">
+        </div>
+        <div class="slide slide-fade">
+            <img src="./imgs/oil_pump.jpeg" alt="Oil Pump">
+        </div>
+        <div class="slide slide-fade">
+            <img src="./imgs/moon_field.jpeg" alt="Moon in Field">
         </div>
         <!-- Slides end -->
-
-        <!-- Next and Prev buttons -->
-        <a class="prev-btn" onclick="plusSlides(-1)" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></a>
-        <a class="next-btn" onclick="plusSlides(1)" aria-label="Next slide"><i class="fas fa-chevron-right"></i></a>
         <!-- Slideshow end -->
     </div>
 
@@ -211,6 +213,7 @@
             </article>
 
             <div class="line-break"></div>
+
             <article>
                 <h3><a href="https://public.coderedweb.com/CNE/en-US/BF4328413F44"
                         aria-label="Reverse 911 and Weather Alerts">Reverse 911 and Weather Alerts</a></h3>
@@ -249,18 +252,21 @@
     </footer>
     <!-- Footer end -->
 
-    <!-- JS for functionality -->
+    <!-- JS  -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Slideshow -->
     <script src="slideshow_auto.js"></script>
-    <script src="slideshow_btns.js"></script>
-    <script src="to_top_btn.js"></script>
 
     <!-- Google translate -->
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="translate.js"></script>
+
+    <!-- To top btn -->
+    <script src="to_top_btn.js"></script>
+
     <!-- JS end -->
 </body>
 

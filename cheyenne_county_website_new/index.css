@@ -6,6 +6,7 @@
 
 /* Slideshow */
 .slideshow {
+    height: 32vw;
     max-width: 100%;
     position: relative;
 }
@@ -25,34 +26,6 @@
 .slide-fade {
     animation-name: slide-fade;
     animation-duration: 1.25s;
-}
-
-/* Next and Prev buttons */
-.prev-btn,
-.next-btn {
-    border-radius: 5px;
-    cursor: pointer;
-    color: var(--text-color);
-    font-size: 1.25em;
-    font-weight: bold;
-    margin-top: -2em;
-    padding: 0.5em;
-    position: absolute;
-    top: 50%;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    user-select: none;
-    width: auto;
-}
-
-.next-btn:hover,
-.prev-btn:hover {
-    background-color: var(--border-color-transparent);
-    color: var(--alt-accent-color);
-}
-
-.next-btn {
-    border-radius: 5px;
-    right: 0;
 }
 
 /* Welcome */
