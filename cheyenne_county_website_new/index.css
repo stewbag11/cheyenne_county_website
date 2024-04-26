@@ -22,12 +22,6 @@
     width: 100%;
 }
 
-/* Slideshow fade animation */
-.slide-fade {
-    animation-name: slide-fade;
-    animation-duration: 1.25s;
-}
-
 /* Welcome */
 .welcome {
     margin: auto;
