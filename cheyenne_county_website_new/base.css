@@ -71,7 +71,7 @@ body a:hover {
 
 /* Small divider */
 hr.border-small {
-    border-top: 5px solid var(--);
+    border-top: 2px solid var(--neutral-color);
 }
 
 /* Big divider */
