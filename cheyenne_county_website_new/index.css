@@ -7,8 +7,8 @@
 /* Slideshow */
 .slideshow {
     height: 32vw;
-    max-width: 100%;
     position: relative;
+    width: 100%;
 }
 
 /* Slides */
@@ -17,7 +17,7 @@
 }
 
 .slide img {
-    height: 32vw;
+    max-height: 32vw;
     user-select: none;
     width: 100%;
 }
