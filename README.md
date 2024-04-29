@@ -1,4 +1,4 @@
-**Deadline 7/1**
+**Deadline 7/1?**
 
 **Get old files back, Wednesday 5/8**
 
@@ -12,6 +12,8 @@
 - Grow on hover effect (all.css)
 - Color switcher (normal, dark, light, invert, base.css)
 - Search button or box? (base.css)
+- Main nav refresh issue (base.css)
+- Slideshow animation? (index.css)
 
 ### Overall needs
 - Responsive

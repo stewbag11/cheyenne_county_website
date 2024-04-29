@@ -1,27 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-==================
-+   index.html   +
-==================
--->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Welcome to Cheyenne County, Colorado! Learn about our county history, officials, departments, and more.">
     <title>Cheyenne County Colorado | Home</title>
-
-    <!-- Image for tab and search results logo -->
-    <link rel="icon" type="image/x-icon" href="./imgs/county_logo_favicon.ico">
-
-    <!-- Default styling -->
-    <link rel="stylesheet" href="base.css">
-
-    <!-- Page specific styling -->
-    <link rel="stylesheet" href="index.css">
 
     <!-- Google fonts for Roboto and Nunito -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,9 +17,17 @@
 
     <!-- Awesome font icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
 
-<!-- Content start -->
+    <!-- Default styling -->
+    <link rel="stylesheet" href="base.css">
+
+    <!-- Page specific styling -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Image for tab and search results logo -->
+    <link rel="icon" type="image/x-icon" href="./imgs/county_logo_favicon.ico">
+
+</head>
 
 <body>
 
@@ -60,8 +53,8 @@
         </nav>
         <nav class="main-nav-links">
             <ul>
-                <li><a class="active" href="index.html" aria-label="Home link">Home</a></li>
-                <li><a href="#" aria-label="About Link">About</a></li>
+                <li><a class="active" href="index.html" aria-current="Home Link">Home</a></li>
+                <li><a href="about.html" aria-label="About Link">About</a></li>
                 <li><a href="#" aria-label="Officials Link">Officials</a></li>
                 <li><a href="#" aria-label="Departments Link">Departments</a></li>
                 <li><a href="#" aria-label="Contact Link">Contact</a></li>
@@ -74,19 +67,19 @@
     <div class="slideshow">
         <!-- Slides -->
         <div class="slide">
-            <img src="./imgs/welcome.jpeg" alt="Welcome to Colorado Sign">
+            <img decoding="async" src="./imgs/welcome.jpeg" alt="Welcome to Colorado Sign">
         </div>
         <div class="slide">
-            <img src="./imgs/windmills.jpeg" alt="Windmills">
+            <img decoding="async" src="./imgs/windmills.jpeg" alt="Windmills">
         </div>
         <div class="slide">
-            <img src="./imgs/grain_elevator.jpeg" alt="Grain Elevator">
+            <img decoding="async" src="./imgs/grain_elevator.jpeg" alt="Grain Elevator">
         </div>
         <div class="slide">
-            <img src="./imgs/oil_pump.jpeg" alt="Oil Pump">
+            <img decoding="async" src="./imgs/oil_pump.jpeg" alt="Oil Pump">
         </div>
         <div class="slide">
-            <img src="./imgs/moon_field.jpeg" alt="Moon in Field">
+            <img decoding="async" src="./imgs/moon_field.jpeg" alt="Moon in Field">
         </div>
         <!-- Slides end -->
         <!-- Slideshow end -->
@@ -117,7 +110,7 @@
 
     <div class="line-break"></div>
 
-    <hr class="border-small">
+    <hr class="border-big">
 
     <!-- Information -->
     <div class="information">
@@ -162,7 +155,8 @@
                 <div class="line-break"></div>
 
                 <div class="image">
-                    <img src="./imgs/cheyenne_county_courthouse.jpeg" alt="Cheyenne County Courthouse">
+                    <img decoding="async" loading="lazy" src="./imgs/cheyenne_county_courthouse.jpeg"
+                        alt="Cheyenne County Courthouse">
                 </div>
             </article>
         </div>
@@ -261,16 +255,14 @@
     </footer>
     <!-- Footer end -->
 
-    <!-- Js -->
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
     <!-- Slideshow -->
     <script src="slideshow_auto.js"></script>
 
     <!-- To top btn -->
-    <script src="to_top_btn.js"></script>
-    <!-- Js end -->
+    <script src="top_btn.js"></script>
+
+    <!-- Scroll reset -->
+    <script src="scroll_reset.js"></script>
 
 </body>
 
