@@ -67,13 +67,7 @@
 }
 
 .image img {
-    border: solid 2px var(--neutral-color);
+    border: solid 2px var(--border-color);
     height: 100%;
-    width: 28vw;
+    width: 30vw;
 }
-
-/* 
-===================
-   Media Queries   
-===================
-*/

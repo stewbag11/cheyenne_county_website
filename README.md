@@ -8,12 +8,12 @@
 - Check Dreamweaver compatibility
 - About page (about.html)
 - Media queries (all.css)
-- Highlight color (mouse drag, all.css)
 - Grow on hover effect (all.css)
 - Color switcher (normal, dark, light, invert, base.css)
 - Search button or box? (base.css)
 - Main nav refresh issue (base.css)
 - Slideshow animation? (index.css)
+- Temperature meter (base.css)
 
 ### Overall needs
 - Responsive

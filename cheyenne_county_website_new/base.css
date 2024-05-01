@@ -2,6 +2,7 @@
 :root {
     --accent-color: hsl(0 100% 17%);
     --alt-accent-color: hsl(6 69% 35%);
+    --alt-alt-accent-color: hsl(36, 88%, 64%);
     --background-color: hsl(0 0% 94%);
     --border-color: hsl(209 30% 19%);
     --border-color-transparent: hsl(209 30% 19% / 0.9);
@@ -23,7 +24,7 @@
 /* Accessible line-height and main background color */
 body {
     background-color: var(--background-color);
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 /* Remove default typography styles */
@@ -49,13 +50,13 @@ h6 {
 body a {
     color: var(--accent-color);
     text-decoration: none;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 /* Change all content link hover color */
 body a:hover {
     color: var(--alt-accent-color);
-    text-decoration: none;
+    font-size: 1.05em;
 }
 
 /* Line break via padding instead of <br> tags */
@@ -75,26 +76,24 @@ hr.border-big {
 
 /* Scroll back top button */
 #top-btn {
-    animation: button-fade 0.3s ease-in-out;
+    animation: button-fade 0.2s ease-in-out;
     background-color: transparent;
     border: none;
-    border-radius: 5px;
-    bottom: 1.5em;
+    bottom: 0.01em;
     color: var(--text-color);
     cursor: pointer;
     display: none;
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
+    left: 50%;
     outline: none;
-    padding: 0.25em;
     position: fixed;
-    right: 0.75em;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    transform: translate(-50%, -1%);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     user-select: none;
 }
 
 #top-btn:hover {
-    background-color: var(--border-color-transparent);
     color: var(--alt-accent-color);
 }
 
@@ -103,18 +102,17 @@ hr.border-big {
     align-items: center;
     background-color: var(--border-color);
     display: flex;
-    font-weight: bold;
     justify-content: flex-end;
     list-style: none;
     padding: 6.25em;
     padding-bottom: 0.15em;
     padding-top: 0.15em;
-    width: 100vw;
+    width: 100%;
 }
 
 .top-nav a {
     font-family: 'Roboto', sans-serif;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .top-nav li a {
@@ -123,6 +121,11 @@ hr.border-big {
 }
 
 .top-nav li a:hover {
+    color: var(--background-color);
+    font-weight: bold;
+}
+
+.top-nav .active {
     color: var(--alt-accent-color);
 }
 
@@ -143,7 +146,6 @@ hr.border-big {
     align-items: center;
     display: flex;
     font-size: 1.25em;
-    font-weight: bold;
     justify-content: space-between;
     padding: 5em;
     padding-bottom: 0.3em;
@@ -160,15 +162,20 @@ hr.border-big {
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
     padding: 1em;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .main-nav-links .active {
-    color: var(--accent-color);
+    color: var(--alt-accent-color);
+}
+
+.main-nav-links .active:hover {
+    color: var(--alt-accent-color);
 }
 
 .main-nav-links a:hover {
-    color: var(--alt-accent-color);
+    color: var(--text-color);
+    font-weight: bold;
 }
 
 h1,
@@ -182,21 +189,34 @@ h6 {
 
 /* Footer */
 footer {
+    background-color: var(--border-color);
+    border-top: 20px solid var(--border-color);
     text-align: center;
     text-wrap: balance;
 }
 
 footer .footer-content {
+    color: var(--background-color);
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1.75em;
 }
 
 footer .footer-copyright {
+    color: var(--background-color);
     display: flex;
     justify-content: space-between;
     padding: 0 1.25em;
     padding-top: 0.3em;
     padding-bottom: 0.3em;
+}
+
+footer a {
+    color: var(--alt-alt-accent-color);
+}
+
+footer a:hover {
+    color: var(--background-color);
+    font-weight: bold;
 }
 
 /* Animations */
@@ -209,7 +229,3 @@ footer .footer-copyright {
         opacity: 1;
     }
 }
-
-/* Media Queries */
-
-@media screen and (max-width: 992px) {}
