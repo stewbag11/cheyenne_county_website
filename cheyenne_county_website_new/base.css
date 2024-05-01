@@ -19,6 +19,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    text-wrap: balance;
 }
 
 /* Accessible line-height and main background color */
@@ -79,7 +80,7 @@ hr.border-big {
     animation: button-fade 0.2s ease-in-out;
     background-color: transparent;
     border: none;
-    bottom: 0.01em;
+    bottom: -0.1em;
     color: var(--text-color);
     cursor: pointer;
     display: none;
@@ -88,7 +89,7 @@ hr.border-big {
     left: 50%;
     outline: none;
     position: fixed;
-    transform: translate(-50%, -1%);
+    transform: translate(-50%);
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     user-select: none;
 }
@@ -192,7 +193,6 @@ footer {
     background-color: var(--border-color);
     border-top: 20px solid var(--border-color);
     text-align: center;
-    text-wrap: balance;
 }
 
 footer .footer-content {
