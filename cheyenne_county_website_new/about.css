@@ -1,0 +1,16 @@
+/* About */
+.about {
+    margin: auto;
+    max-width: 50%;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+}
+
+.about p {
+    font-size: 1.25rem;
+}
