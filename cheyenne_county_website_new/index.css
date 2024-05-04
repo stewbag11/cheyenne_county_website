@@ -1,6 +1,16 @@
+/* Header underline */
+h1:after {
+    border: 1px solid var(--text-color);
+    content: "";
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 16rem;
+}
+
 /* Slideshow */
 .slideshow {
-    height: 31vw;
+    height: 30vw;
     position: relative;
     width: 100%;
 }
@@ -11,7 +21,7 @@
 }
 
 .slide img {
-    max-height: 31vw;
+    max-height: 30vw;
     user-select: none;
     width: 100%;
 }
@@ -19,9 +29,8 @@
 /* Welcome */
 .welcome {
     margin: auto;
-    max-width: 85%;
-    padding-bottom: 1.25rem;
-    padding-top: 1.25rem;
+    max-width: 75%;
+    padding-top: 0.9rem;
     text-align: center;
 }
 

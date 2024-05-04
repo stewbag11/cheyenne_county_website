@@ -1,7 +1,17 @@
+/* Header underline */
+h1:after {
+    border: 1px solid var(--text-color);
+    content: "";
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 12rem;
+}
+
 /* About */
 .about {
     margin: auto;
-    max-width: 50%;
+    max-width: 75%;
     padding-bottom: 1.25rem;
     padding-top: 1.25rem;
     text-align: center;
@@ -13,4 +23,14 @@
 
 .about p {
     font-size: 1.25rem;
+}
+
+.about img {
+    border: 1px solid var(--alt-border-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75rem;
+    max-height: 30vw;
+    user-select: none;
+    width: 100%;
 }

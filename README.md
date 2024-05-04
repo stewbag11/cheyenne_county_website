@@ -4,18 +4,20 @@
 
 ### To-Do
 - About page (about.html)
+- Jobs page (jobs.html)
 - Officals page (officals.html)
 - Departments page (departments/departments.html)
 
 - Color switcher (normal, dark, light, invert, base.css)
 - Main nav refresh issue (base.css)
-- Media queries (all)
-
+- Scroll down prompt button?
+- Footer with helpful links, contact, accessability link?
 - Subnav for navs?
 - Search button or box? (base.css)
-- Translate button? (base.css)
 - Temperature meter? (base.css)
 - Slideshow animation? (index.css)
+
+- Media queries (all)
 
 ### Overall needs
 - Responsive
