@@ -1,9 +1,9 @@
 /* Logo matched color variables */
 :root {
-    --link-color: hsl(0 100% 17%);
-    --alt-link-color: hsl(6 69% 35%);
+    --link-color: hsl(0 100% 25%);
+    --hover-link-color: hsl(0 100% 13%);
     --background-color: hsl(0 0% 94%);
-    --border-color: hsl(209 30% 19%);
+    --border-color: hsl(209 30% 20%);
     --alt-border-color: hsl(209 30% 15%);
     --text-color: hsl(210 29% 3%);
 
@@ -59,13 +59,12 @@ h2:after {
 /* Add animation and color to all content links */
 body a {
     color: var(--link-color);
-    text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
 
 /* Change all content link hover color */
 body a:hover {
-    color: var(--alt-link-color);
+    color: var(--hover-link-color);
 }
 
 /* Line break via padding instead of <br> tags */
@@ -77,13 +76,8 @@ body a:hover {
     padding-bottom: 3rem;
 }
 
-/* Big divider */
-hr.border-big {
-    border: 50px solid var(--border-color);
-}
-
 /* Small divider */
-hr.border-small {
+hr.border {
     border: 1px solid var(--border-color);
 }
 
@@ -106,7 +100,7 @@ hr.border-small {
 }
 
 #top-btn:hover {
-    color: var(--alt-link-color);
+    color: var(--link-color);
 }
 
 /* Nav top */
@@ -119,25 +113,23 @@ hr.border-small {
     padding: 6rem;
     padding-bottom: 0.15rem;
     padding-top: 0.15rem;
+    user-select: none;
     width: 100%;
 }
 
 .top-nav a {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    text-decoration: none;
 }
 
 .top-nav li a {
     color: var(--background-color);
     padding: 1rem;
+    font-weight: 500;
 }
 
 .top-nav li a:hover {
-    color: var(--alt-link-color);
-}
-
-.top-nav .active {
-    color: var(--link-color);
+    text-decoration: underline;
 }
 
 /* Nav logo */
@@ -161,6 +153,7 @@ hr.border-small {
     padding: 6rem;
     padding-bottom: 0.3rem;
     padding-top: 0.3rem;
+    user-select: none;
     width: 100%;
 }
 
@@ -174,11 +167,13 @@ hr.border-small {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     padding: 1rem;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 .main-nav-links .active {
     color: var(--link-color);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .main-nav-links .active:hover {
@@ -186,23 +181,69 @@ hr.border-small {
 }
 
 .main-nav-links a:hover {
-    color: var(--alt-link-color);
+    color: var(--hover-link-color);
 }
 
 /* Footer */
 footer {
     background-color: var(--border-color);
-    text-align: center;
 }
 
-footer .footer-content {
+footer a {
+    color: var(--background-color);
+}
+
+footer a:hover {
+    color: var(--background-color);
+}
+
+.footer-content {
     border-top: 20px solid var(--border-color);
     color: var(--background-color);
+    display: flex;
     padding-top: 0.5rem;
     padding-bottom: 1.75rem;
 }
 
-footer .footer-copyright {
+.footer-link {
+    margin: 0 auto;
+}
+
+.footer-link ul,
+.footer-link p {
+    list-style: none;
+    padding-top: 0.4rem;
+}
+
+.footer-link h3 {
+    border-bottom: 1px solid var(--background-color);
+}
+
+.footer-link a {
+    user-select: none;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.sites a {
+    text-decoration: none;
+}
+
+.sites a:hover {
+    text-decoration: underline;
+}
+
+.accessibility a {
+    text-decoration: none;
+}
+
+.accessibility a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
     background-color: var(--alt-border-color);
     color: var(--background-color);
     display: flex;
@@ -210,15 +251,16 @@ footer .footer-copyright {
     padding: 1.25rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+    user-select: none;
+    text-align: center;
 }
 
-footer a {
-    color: var(--alt-link-color);
+.footer-copyright a {
+    text-decoration: none;
 }
 
-footer a:hover {
-    color: var(--background-color);
-    font-weight: 400;
+.footer-copyright a:hover {
+    text-decoration: underline;
 }
 
 /* Animations */

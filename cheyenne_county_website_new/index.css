@@ -30,7 +30,7 @@ h1:after {
 .welcome {
     margin: auto;
     max-width: 75%;
-    padding-top: 0.9rem;
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -55,4 +55,9 @@ h1:after {
 .courthouse li,
 .notices li {
     list-style: none;
+}
+
+.courthouse a,
+.notices a {
+    text-decoration: none;
 }
