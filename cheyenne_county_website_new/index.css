@@ -1,11 +1,22 @@
 /* Header underline */
 h1:after {
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--border-color);
     content: "";
     display: block;
     margin: auto;
-    margin-bottom: 1rem;
-    width: 16rem;
+    margin-bottom: 0.5rem;
+    width: 15rem;
+}
+
+/* Header side lines */
+h2:before,
+h2:after {
+    border-top: 2px solid var(--border-color);
+    content: "";
+    display: inline-block;
+    margin: 0 1rem;
+    transform: translateY(-.55rem);
+    width: 2rem;
 }
 
 /* Slideshow */
@@ -15,7 +26,6 @@ h1:after {
     width: 100%;
 }
 
-/* Slides */
 .slide {
     display: none;
 }
@@ -30,26 +40,32 @@ h1:after {
 .welcome {
     margin: auto;
     max-width: 75%;
-    padding-top: 1rem;
+    padding: 1.5rem 1.5rem;
     text-align: center;
-}
-
-.welcome h1 {
-    font-size: 2.5rem;
 }
 
 .welcome p {
     font-size: 1.25rem;
 }
 
+
 /* Courthouse and Notices */
 .courthouse,
 .notices {
     font-size: 1.25rem;
     justify-content: center;
-    padding-bottom: 1.25rem;
-    padding-top: 1.25rem;
+    padding: 1.5rem 1.5rem;
     text-align: center;
+}
+
+.courthouse h2,
+.notices h2 {
+    padding-bottom: 0.5rem;
+}
+
+.courthouse ul:not(:last-child),
+.notices ul {
+    padding-bottom: 2rem;
 }
 
 .courthouse li,
