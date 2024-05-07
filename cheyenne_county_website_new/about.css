@@ -18,3 +18,7 @@ h2:after {
     width: 100%;
     vertical-align: middle;
 }
+
+.initial-content h2 {
+    font-size: 1.65rem;
+}
