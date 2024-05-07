@@ -1,0 +1,23 @@
+/* Header underline size */
+h1:after {
+    width: 9rem;
+}
+
+/* Header side lines */
+h2:before,
+h2:after {
+    display: none;
+}
+
+/* Jobs */
+.jobs a {
+    text-decoration: none;
+}
+
+.jobs p a {
+    text-decoration: underline;
+}
+
+.jobs p a:hover {
+    text-decoration: none;
+}
