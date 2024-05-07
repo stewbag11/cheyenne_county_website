@@ -3,14 +3,12 @@
 **About page by Wednesday 5/8**
 
 ### To-Do
-- Fix FOUC OFF!
 - Jobs page (jobs.html)
 - Officals page (officals.html)
+- Board appointments (?)
 - Departments page (departments.html)
-- Top button location change? (base.css)
+- Back to Top button location change? (base.css)
 - Color switcher (normal, dark, invert, base.css)
-- Scroll down prompt button?
-- Footer with helpful links, contact, accessability link?
 - Subnav for navs?
 - Search button or box? (base.css)
 - Breadcrumbs? (base.css)

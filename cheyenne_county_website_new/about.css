@@ -1,44 +1,20 @@
-/* Header underline */
+/* Header underline size */
 h1:after {
-    border: 1px solid var(--border-color);
-    content: "";
-    display: block;
-    margin: auto;
-    margin-bottom: 0.5rem;
     width: 11rem;
 }
 
-/* Header side lines */
+/* Header side lines position */
 h2:before,
 h2:after {
-    border-top: 2px solid var(--border-color);
-    content: "";
-    display: inline-block;
-    margin: 0 1rem;
     transform: translateY(-.40rem);
-    width: 2rem;
 }
 
-/* About */
-.about {
-    margin: auto;
-    max-width: 75%;
-    padding: 1.5rem 1.5rem;
-    text-align: center;
-}
-
-.about h2 {
-    padding-top: 1.5rem;
-}
-
-.about p {
-    font-size: 1.25rem;
-}
-
-.about img {
+.initial-content img {
     border: 1px solid var(--border-color);
+    font-style: italic;
     margin: 0.75rem auto auto 1rem;
     max-height: 30vw;
     user-select: none;
     width: 100%;
+    vertical-align: middle;
 }

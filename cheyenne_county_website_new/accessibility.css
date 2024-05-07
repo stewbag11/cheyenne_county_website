@@ -1,45 +1,14 @@
 /* Header underline */
 h1:after {
-    border: 1px solid var(--border-color);
-    content: "";
-    display: block;
-    margin: auto;
-    margin-bottom: 0.5rem;
     width: 18rem;
 }
 
 /* Header side lines */
 h2:before,
 h2:after {
-    border-top: 2px solid var(--border-color);
-    content: "";
-    display: inline-block;
-    margin: 0 1rem;
     transform: translateY(-.40rem);
-    width: 2rem;
 }
 
-/* Accessibility */
-.accessibility-info {
-    margin: auto;
-    max-width: 75%;
-    padding: 1.5rem 1.5rem;
-    text-align: center;
-}
-
-.accessibility-info h2 {
-    padding-top: 2rem;
-}
-
-.accessibility-info p,
-.accessibility-info li {
-    font-size: 1.25rem;
-}
-
-.accessibility-info a {
+.initial-content a {
     text-decoration: none;
-}
-
-.accessibility-info li {
-    list-style: none;
 }

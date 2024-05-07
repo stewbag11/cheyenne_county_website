@@ -9,8 +9,6 @@
     <title>Cheyenne County Colorado | Home</title>
 
     <!-- Google fonts for Roboto and Nunito -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -29,10 +27,7 @@
 </head>
 
 <body>
-
-    <!-- Scroll to top button -->
-    <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up"></i></button>
-
+    <script>0</script>
     <nav>
         <!-- Nav top -->
         <ul class="top-nav">
@@ -66,27 +61,27 @@
     <!-- Slideshow -->
     <div class="slideshow">
         <!-- Slides -->
-        <div class="slide">
+        <div class="slide slide-fade">
             <img src="./imgs/welcome.jpeg" alt="Welcome to Colorado Sign Slide">
         </div>
-        <div class="slide">
-            <img src="./imgs/windmills.jpeg" alt="Windmills Slide" loading="lazy">
+        <div class="slide slide-fade">
+            <img src="./imgs/windmills.jpeg" alt="Windmills Slide">
         </div>
-        <div class="slide">
-            <img src="./imgs/grain_elevator.jpeg" alt="Grain Elevator Slide" loading="lazy">
+        <div class="slide slide-fade">
+            <img src="./imgs/grain_elevator.jpeg" alt="Grain Elevator Slide">
         </div>
-        <div class="slide">
-            <img src="./imgs/oil_pump.jpeg" alt="Oil Pump Slide" loading="lazy">
+        <div class="slide slide-fade">
+            <img src="./imgs/oil_pump.jpeg" alt="Oil Pump Slide">
         </div>
-        <div class="slide">
-            <img src="./imgs/moon_field.jpeg" alt="Moon in Field Slide" loading="lazy">
+        <div class="slide slide-fade">
+            <img src="./imgs/moon_field.jpeg" alt="Moon in Field Slide">
         </div>
         <!-- Slides end -->
     </div>
     <!-- Slideshow end -->
 
     <!-- Welcome -->
-    <section class="welcome">
+    <section class="initial-content">
         <header>
             <h1>Welcome</h1>
         </header>
@@ -195,7 +190,7 @@
             </div>
             <div class="footer-link">
                 <h3>Sites</h3>
-                <ul class="sites">
+                <ul>
                     <li><a href="http://www.cheyennewellsfire.com/">Cheyenne Wells Fire Dept.</a></li>
                     <li><a href="https://www.prairiedevelopment.com">Prairie Development</a></li>
                     <li><a href="https://townofcheyennewells.com/">Town of Cheyenne Wells</a></li>
@@ -205,12 +200,10 @@
                 </ul>
             </div>
             <div class="footer-link">
-                <div class="accessibility">
-                    <a href="accessibility.html">
-                        <h3>Accessibility</h3>
-                    </a>
-                    <p>For more on Accessibility please Click the Link above.</p>
-                </div>
+                <a href="accessibility.html">
+                    <h3>Accessibility</h3>
+                </a>
+                <p>For more on Accessibility please Click the Link above.</p>
             </div>
         </div>
         <div class="footer-copyright">
@@ -226,6 +219,7 @@
     <script src="slideshow_auto.js"></script>
 
     <!-- To top btn -->
+    <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up"></i></button>
     <script src="top_btn.js"></script>
 
 </body>
