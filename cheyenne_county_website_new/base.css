@@ -176,17 +176,17 @@ body a:hover {
     animation: button-fade 0.2s ease-in-out;
     background-color: transparent;
     border: none;
-    bottom: -0.01rem;
+    bottom: 2rem;
     color: var(--text-color);
     cursor: pointer;
     display: none;
-    font-size: 1.5rem;
-    left: 50%;
+    font-size: 1.75rem;
+    right: 0.5%;
     outline: none;
     position: fixed;
-    transform: translate(-50%);
     transition: color 0.2s ease-in-out;
     user-select: none;
+    z-index: 99;
 }
 
 #top-btn:hover {
