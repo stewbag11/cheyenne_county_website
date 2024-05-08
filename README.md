@@ -1,3 +1,5 @@
+**Deadline 7/1**
+
 **Get old files back, Wednesday 5/8**
 
 **About page by Wednesday 5/8**
@@ -8,10 +10,10 @@
 - Departments page (departments.html)
 - Color switcher (normal, dark, invert, base.css)
 - Subnav for navs?
-- Search button or box? (base.css)
 - Breadcrumbs? (base.css)
-- Temperature meter? (base.css)
+- Search button or box? (base.css)
 - Media queries (all)
+- Temperature meter? (base.css)
 - Regular development version and minified production version
 
 ### Overall needs
