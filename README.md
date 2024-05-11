@@ -1,27 +1,28 @@
 **Deadline 7/1**
 
-**Get old files back, Wednesday 5/8**
-
-**About page by Wednesday 5/8**
-
-### To-Do
-- Officals page (officals.html)
-- Board appointments (?)
+### Main Features
+- Boards / Appointments which name?
 - Departments page (departments.html)
+
+### Small features
 - Color switcher (normal, dark, invert, base.css)
 - Subnav for navs?
 - Breadcrumbs? (base.css)
 - Search button or box? (base.css)
-- Media queries (all)
 - Temperature meter? (base.css)
-- Regular development version and minified production version
+
+### Bugs & Fixes
+- Media queries (all)
+- Blinking cursor on data click
+- Better images throughout
+- Back to top button focus styling
 
 ### Overall needs
-- Responsive
 - Accessible (ADA Compliant)
 - Clean / Minimal
-- Performant
 - Maintainable
+- Responsive
+- Performant
+- Regular development version and minified production version
 - Overall thoughtful and detailed design throughout
-
-**Deadline 7/1**
+- Create README for Marcy to make any and all edits

@@ -14,10 +14,6 @@ h2:after {
     text-decoration: none;
 }
 
-.jobs p a {
-    text-decoration: underline;
-}
-
 .jobs p a:hover {
     text-decoration: none;
 }

@@ -1,0 +1,10 @@
+/* Header underline size */
+h1:after {
+    width: 12rem;
+}
+
+/* Header side lines position */
+h2:before,
+h2:after {
+    transform: translateY(-.45rem);
+}

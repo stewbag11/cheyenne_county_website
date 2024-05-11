@@ -94,12 +94,13 @@ body a:hover {
     text-decoration: none;
 }
 
-.top-nav li a {
+.top-nav a {
     color: var(--background-color);
     font-weight: 500;
 }
 
-.top-nav li a:hover {
+.top-nav a:hover {
+    color: var(--background-color);
     text-decoration: underline;
 }
 
@@ -130,7 +131,7 @@ body a:hover {
     width: 100%;
 }
 
-.main-nav ul {
+.main-nav nav {
     display: flex;
     gap: 2rem;
     list-style: none;
