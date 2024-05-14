@@ -1,23 +1,16 @@
 **Deadline 7/1**
 
 ### Main Features
-- Boards / Appointments which name?
-- Departments page (departments.html)
-
-### Small features
-- Color switcher (normal, dark, invert, base.css)
+- Departments pages (departments.html)
 - Subnav for navs?
 - Breadcrumbs? (base.css)
 - Search button or box? (base.css)
-- Temperature meter? (base.css)
 
 ### Bugs & Fixes
 - Media queries (all)
-- Blinking cursor on data click
-- Better images throughout
-- Back to top button focus styling
+- Better imgs throughout
 
-### Overall needs
+### Overall Needs
 - Accessible (ADA Compliant)
 - Clean / Minimal
 - Maintainable
@@ -25,4 +18,4 @@
 - Performant
 - Regular development version and minified production version
 - Overall thoughtful and detailed design throughout
-- Create README for Marcy to make any and all edits
+- Create README for client to make any and all edits

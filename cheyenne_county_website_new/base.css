@@ -1,7 +1,7 @@
 /* Colors */
 :root {
     --link-color: hsl(0 100% 32%);
-    --hover-link-color: hsl(0 100% 18%);
+    --hover-link-color: hsl(0 100% 22%);
     --background-color: hsl(0 0% 94%);
     --border-color: hsl(209 30% 20%);
     --alt-border-color: hsl(209 30% 15%);
@@ -67,7 +67,8 @@ body a {
 }
 
 /* Change all content link hover color */
-body a:hover {
+body a:hover,
+body a:focus {
     color: var(--hover-link-color);
 }
 
@@ -99,7 +100,8 @@ body a:hover {
     font-weight: 500;
 }
 
-.top-nav a:hover {
+.top-nav a:hover,
+.top-nav a:focus {
     color: var(--background-color);
     text-decoration: underline;
 }
@@ -147,7 +149,8 @@ body a:hover {
 
 .main-nav-links .active,
 .main-nav-links .active:hover,
-.main-nav-links a:hover {
+.main-nav-links a:hover,
+.main-nav-links a:focus {
     color: var(--link-color);
 }
 
@@ -190,7 +193,8 @@ body a:hover {
     z-index: 99;
 }
 
-#top-btn:hover {
+#top-btn:hover,
+#top-btn:focus {
     color: var(--link-color);
 }
 
@@ -205,7 +209,8 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
     color: var(--background-color);
     text-decoration: underline;
 }
@@ -240,7 +245,8 @@ footer .active {
     text-decoration: underline;
 }
 
-.contact a:hover {
+.contact a:hover,
+.contact a:focus {
     text-decoration: none;
 }
 
