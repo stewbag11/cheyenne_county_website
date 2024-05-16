@@ -1,12 +1,14 @@
 **Deadline 7/1**
 
 ### Main Features
-- Departments pages (departments.html)
-- Subnav for navs?
-- Breadcrumbs? (base.css)
-- Search button or box? (base.css)
++ Departments pages (departments.html)
++ Subnav for navs?
++ Breadcrumbs? (base.css)
++ Search button or box? (base.css)
 
 ### Bugs & Fixes
+- Move Applications
+- Links Color Blind Assessible
 - Media queries (all)
 - Better imgs throughout
 
