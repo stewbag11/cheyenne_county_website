@@ -3,8 +3,13 @@ h1:after {
     width: 18rem;
 }
 
-/* Header side lines position */
+/* Remove header side lines */
 h2:before,
 h2:after {
-    transform: translateY(-.0rem);
+    display: none;
+}
+
+/* Possibly call in base.css */
+.initial-content a {
+    text-decoration: none;
 }

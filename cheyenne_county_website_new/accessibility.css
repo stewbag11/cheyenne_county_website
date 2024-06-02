@@ -9,6 +9,7 @@ h2:after {
     transform: translateY(-.40rem);
 }
 
+/* Possibly call in base.css */
 .initial-content a {
     text-decoration: none;
 }

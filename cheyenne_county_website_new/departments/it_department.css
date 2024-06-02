@@ -1,19 +1,15 @@
 /* Header underline size */
 h1:after {
-    width: 9rem;
+    width: 20rem;
 }
 
-/* Header side lines */
+/* Header side lines position */
 h2:before,
 h2:after {
-    display: none;
+    transform: translateY(-.38rem);
 }
 
 /* Possibly call in base.css */
 .initial-content a {
-    text-decoration: none;
-}
-
-.initial-content p a:hover {
     text-decoration: none;
 }

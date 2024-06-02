@@ -2,15 +2,18 @@
   - {:/home/spencer/notes/index.norg:}
 
 ** Main Features
-   - Departments pages (departments.html)
-   - Subnav for navs?
+   - Departments pages (6 left)
 
 ** Bugs & Fixes
-   - Links Color Blind Assessible
-   - Media queries (all)
+   - Departments pages styling/organization
+   - Contact info order
+   - Links color blind assessible
+   - Media queries
    - Better imgs throughout
+   - Recheck current info on all pages to ensure accuracy
 
 ** Overall Needs
+   - .com --> .gov domain change
    - Accessible (ADA Compliant)
    - Regular development version and minified production version
    - Create README for client to make any and all edits
