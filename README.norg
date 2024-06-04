@@ -5,11 +5,15 @@
    - Departments pages (6 left)
 
 ** Bugs & Fixes
+   - Assesor page glossary link, leads to full html page, maybe convert to pdf?
+   - Departments pages fill info to make full pages
    - Departments pages styling/organization
    - Contact info order
+   - Special districts ?
+   - Get locations for all pictures
+   - Better imgs throughout
    - Links color blind assessible
    - Media queries
-   - Better imgs throughout
    - Recheck current info on all pages to ensure accuracy
 
 ** Overall Needs
