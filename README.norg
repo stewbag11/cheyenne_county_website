@@ -2,17 +2,16 @@
   - {:/home/spencer/notes/index.norg:}
 
 ** Main Features
-   - Departments pages (6 left)
+   - Departments pages (2 left)
 
 ** Bugs & Fixes
-   - Assesor page glossary link, leads to full html page, maybe convert to pdf?
    - Departments pages fill info to make full pages
    - Departments pages styling/organization
+   - Bullet points for departments pages
    - Contact info order
    - Special districts ?
    - Get locations for all pictures
-   - Better imgs throughout
-   - Links color blind assessible
+   - Links color blind assessible (underline hover)
    - Media queries
    - Recheck current info on all pages to ensure accuracy
 
