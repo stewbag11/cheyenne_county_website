@@ -2,7 +2,7 @@
   - {:/home/spencer/notes/index.norg:}
 
 ** Main Features
-   - Departments pages (2 left)
+   - Departments pages (DONE!)
 
 ** Bugs & Fixes
    - Departments pages fill info to make full pages
@@ -13,6 +13,7 @@
    - Get locations for all pictures
    - Links color blind assessible (underline hover)
    - Media queries
+   - Google metadata for content on every page
    - Recheck current info on all pages to ensure accuracy
 
 ** Overall Needs
