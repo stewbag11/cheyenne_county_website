@@ -57,7 +57,13 @@ h2:after {
     content: "";
     display: inline-block;
     margin: 0 1rem;
-    width: 2rem;
+    width: 1.5rem;
+}
+
+/* Header side lines position */
+h2:before,
+h2:after {
+    transform: translateY(-.50rem);
 }
 
 /* Add animation and color to all content links */
@@ -156,9 +162,9 @@ body a:focus {
 
 /* Inital content */
 .initial-content {
-    margin: auto;
-    max-width: 75%;
-    padding: 1.5rem 1.5rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    padding: 1rem 1rem;
     text-align: center;
 }
 
@@ -166,13 +172,18 @@ body a:focus {
     padding-top: 1.25rem;
 }
 
-.initial-content p,
-.initial-content li {
-    font-size: 1.25rem;
+.initial-content ul {
+    padding-bottom: 1.75rem;
 }
 
 .initial-content li {
     list-style: none;
+    margin: 0.13rem;
+}
+
+.initial-content a:hover,
+.initial-content a:focus {
+    text-decoration: none;
 }
 
 /* Scroll back top button */
@@ -196,6 +207,7 @@ body a:focus {
 #top-btn:hover,
 #top-btn:focus {
     color: var(--link-color);
+    font-size: 1.8rem;
 }
 
 /* Footer */
@@ -231,6 +243,10 @@ footer .active {
     margin: 0 auto;
 }
 
+.footer-link li {
+    margin: .25rem;
+}
+
 .footer-link ul,
 .footer-link p {
     list-style: none;
@@ -255,8 +271,17 @@ footer .active {
     color: var(--background-color);
     display: flex;
     justify-content: space-between;
-    padding: 0.3rem 1.25rem 0.3rem;
+    padding: 0.5rem 1.25rem 0.25rem;
     user-select: none;
+}
+
+.footer-copyright a {
+    text-decoration: underline;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+    text-decoration: none;
 }
 
 /* Animations */

@@ -3,13 +3,6 @@ h1:after {
     width: 18rem;
 }
 
-/* Remove header side lines */
-h2:before,
-h2:after {
-    display: none;
-}
-
-/* Possibly call in base.css */
-.initial-content a {
-    text-decoration: none;
+.initial-content li {
+    margin: .75rem;
 }

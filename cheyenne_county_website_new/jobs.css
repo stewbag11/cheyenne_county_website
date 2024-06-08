@@ -3,17 +3,6 @@ h1:after {
     width: 9rem;
 }
 
-/* Header side lines */
-h2:before,
-h2:after {
-    display: none;
-}
-
-/* Possibly call in base.css */
-.initial-content a {
-    text-decoration: none;
-}
-
-.initial-content p a:hover {
-    text-decoration: none;
+.initial-content li {
+    margin: .75rem;
 }

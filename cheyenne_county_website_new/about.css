@@ -3,16 +3,10 @@ h1:after {
     width: 11rem;
 }
 
-/* Header side lines position */
-h2:before,
-h2:after {
-    transform: translateY(-.40rem);
-}
-
 .initial-content img {
     border: 1px solid var(--border-color);
     font-style: italic;
-    margin: 0.75rem auto auto 1rem;
+    margin: 0.75rem auto auto .50rem;
     max-height: 30vw;
     user-select: none;
     width: 100%;

@@ -2,8 +2,3 @@
 h1:after {
     width: 13rem;
 }
-
-/* Possibly call in base.css */
-.initial-content a {
-    text-decoration: none;
-}

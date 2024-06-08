@@ -3,13 +3,6 @@ h1:after {
     width: 14rem;
 }
 
-/* Header side lines position */
-h2:before,
-h2:after {
-    transform: translateY(-.55rem);
-}
-
-
 /* Slideshow */
 .slideshow {
     height: 30vw;
@@ -26,35 +19,6 @@ h2:after {
     user-select: none;
     width: 100%;
     vertical-align: middle;
-}
-
-/* Courthouse and Notices */
-.courthouse,
-.notices {
-    font-size: 1.25rem;
-    justify-content: center;
-    padding: 1.5rem 1.5rem;
-    text-align: center;
-}
-
-.courthouse h2,
-.notices h2 {
-    padding-bottom: 0.5rem;
-}
-
-.courthouse ul:not(:last-child),
-.notices ul {
-    padding-bottom: 1.5rem;
-}
-
-.courthouse li,
-.notices li {
-    list-style: none;
-}
-
-.courthouse a,
-.notices a {
-    text-decoration: none;
 }
 
 /* Animations */

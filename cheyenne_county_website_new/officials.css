@@ -2,14 +2,3 @@
 h1:after {
     width: 13rem;
 }
-
-/* Header side lines position */
-h2:before,
-h2:after {
-    transform: translateY(-.45rem);
-}
-
-/* Possibly call in base.css */
-.initial-content a {
-    text-decoration: none;
-}

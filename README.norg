@@ -3,23 +3,19 @@
 
 ** Main Features
    - Departments pages fill info to make full pages
-   - Departments pages styling/organization
-   - Daisy chained navigation for departments (next page text then to next and previous)?
-   - Bullet points for departments pages
-   - Contact info order
-   - Special districts ?
+   - Visited link color
+   - Underline / some sort of change for main nav links hovering
    - Get locations for all pictures
-   - Google metadata for content on every page
+   - Daisy chained navigation for departments (next page text then to next and previous)?
 
 ** Bugs & Fixes
-   - Links color blind assessible (underline hover)
+   - Back to top clickable whilst doing last sequence
    - Media queries
-   - Recheck current info on all pages and codebase to ensure accuracy
 
-** Overall Needs
-   - .com --> .gov domain change
-   - Accessible (ADA Compliant)
+** Before Deployment
+   - Recheck current info on all pages and codebase to ensure accuracy
    - Regular development version and minified production version
+   - Test on all main browsers, tests include overall browser functionality, accessibility, flow, and future maintenance
    - Create README for client to make any and all edits
 
    **Deadline 7/1**

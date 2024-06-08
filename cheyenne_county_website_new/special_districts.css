@@ -2,3 +2,7 @@
 h1:after {
     width: 22rem;
 }
+
+.initial-content li {
+    margin: 1rem;
+}
