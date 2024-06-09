@@ -9,6 +9,8 @@
    - Daisy chained navigation for departments (next page text then to next and previous)?
 
 ** Bugs & Fixes
+   - Metadata description similar on all pages, not inconsistent
+   - Move Departments pdfs to a new pdfs folder inside of /departments 
    - Back to top clickable whilst doing last sequence
    - Media queries
 
