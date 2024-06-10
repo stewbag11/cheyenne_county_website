@@ -6,9 +6,9 @@ h1:after {
 .initial-content img {
     border: 1px solid var(--border-color);
     font-style: italic;
-    margin: 0.75rem auto auto .50rem;
+    margin: .70rem auto auto .70rem;
     max-height: 30vw;
     user-select: none;
-    width: 100%;
+    width: 90%;
     vertical-align: middle;
 }
