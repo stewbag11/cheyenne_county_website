@@ -186,6 +186,12 @@ body a:focus {
     text-decoration: none;
 }
 
+.departments-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .25rem;
+}
+
 /* Scroll back top button */
 #top-btn {
     animation: button-fade 0.2s ease-in-out;
