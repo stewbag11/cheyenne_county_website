@@ -5,7 +5,7 @@ h1:after {
 
 /* Slideshow */
 .slideshow {
-    height: 30vw;
+    max-height: 30vw;
     position: relative;
 }
 
@@ -14,11 +14,9 @@ h1:after {
 }
 
 .slide img {
-    font-style: italic;
     max-height: 30vw;
     user-select: none;
     width: 100%;
-    vertical-align: middle;
 }
 
 /* Animations */
