@@ -2,19 +2,22 @@
   - {:/home/spencer/notes/index.norg:}
 
 ** Main Features
-   - All bulleted lists more seperaration
-   - Metadata description similar on all pages, not inconsistent
-   - Move Departments pdfs to a new pdfs folder inside of /departments 
-   - All pictures to proper picture
+   - Assessor say will download files
+   - Add information to some departments
 
 ** Bugs & Fixes
-   - Back to top clickable whilst doing last sequence
+   - All bulleted lists more seperaration
+   - Back to top clickable whilst doing last sequence, styling
 
-** Ask Marcy
-   - Departments pages fill info to make full pages
-   - Get locations for all pictures
+** Pictures
+   - Grain Mill/Elevator (Slideshow)
+   - Cheyenne County (Courthouse)
+   - Cheyenne Wells (Entrance)
+   - Arapahoe (Post Office/Field)
+   - Wild Horse (School House on North Side)
 
 ** Before Deployment
+   - Metadata description similar on all pages, not inconsistent
    - Recheck current info on all pages and codebase to ensure accuracy
    - Regular development version and minified production version
    - Test on all main browsers, tests include overall browser functionality, accessibility, flow, and future maintenance

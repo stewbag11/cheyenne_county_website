@@ -143,6 +143,18 @@ h2:after {
     color: var(--link-color);
 }
 
+.main-nav-links a:hover::after {
+    border: 1px solid var(--border-color);
+    content: "";
+    display: block;
+}
+
+.main-nav-links .active:after {
+    border: 1px solid var(--border-color);
+    content: "";
+    display: block;
+}
+
 /* content */
 .initial-content {
     font-size: 1.20rem;
@@ -303,7 +315,7 @@ footer .active {
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 730px) {
 
     #top-btn {
         bottom: 3rem;
@@ -331,7 +343,7 @@ footer .active {
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 380px) {
 
     .main-nav-links {
         flex-wrap: wrap;

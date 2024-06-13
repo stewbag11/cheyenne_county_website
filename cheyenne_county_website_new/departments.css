@@ -1,6 +1,6 @@
-/* Header underline size */
+/* header underline size */
 h1:after {
-    width: 18rem;
+    width: 16rem;
 }
 
 .initial-content li {

@@ -1,6 +1,11 @@
-/* Header underline size */
+/* nav underline */
+.main-nav-links .active:after {
+    width: 3rem;
+}
+
+/* header underline size */
 h1:after {
-    width: 11rem;
+    width: 9rem;
 }
 
 .initial-content img {
