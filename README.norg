@@ -1,12 +1,6 @@
 * <-- Go Back
   - {:/home/spencer/notes/index.norg:}
 
-** Main Features
-
-** Bugs & Fixes
-   - All bulleted lists more seperaration
-   - Back to top clickable whilst doing last sequence, styling
-
 ** Pictures
    - Grain Mill/Elevator (Slideshow)
    - Cheyenne County (Courthouse)
@@ -18,5 +12,4 @@
    - Metadata description similar on all pages, not inconsistent
    - Recheck current info on all pages and codebase to ensure accuracy
    - Regular development version and minified production version
-   - Test on all main browsers, tests include overall browser functionality, accessibility, flow, and future maintenance
    - Create README for client to make any and all edits with or without a CMS

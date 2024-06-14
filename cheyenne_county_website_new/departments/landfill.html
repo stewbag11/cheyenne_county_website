@@ -25,7 +25,7 @@
     <link rel="icon" type="image/x-icon" href="/imgs/county_logo_favicon.ico">
 </head>
 
-<body>
+<body id="body" style="display: none;">
     <nav>
         <!-- Nav top -->
         <div class="top-nav">
@@ -68,7 +68,7 @@
 
         <ul>
             <li>
-                <h2>Manager / Operator</h2>
+                <h2>Manager/Operator</h2>
             </li>
             <li><em>Mark Galli</em></li>
         </ul>
@@ -91,7 +91,7 @@
             <li>Legal holidays &amp; High wind days</li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li>
                 <h2>Policies</h2>
             </li>
@@ -111,7 +111,7 @@
             <li>&bull; Electronic Waste (E-Waste) must be sorted and placed into E-Waste bins.</li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li>
                 <h2>Rates</h2>
             </li>
@@ -126,7 +126,7 @@
             <li>&bull; Semi-load: $75.00</li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li>
                 <h3>Tires</h3>
             </li>
@@ -136,7 +136,7 @@
             <li>&bull; Tractor tires: $35.00 each</li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li>
                 <h3>Other Items</h3>
             </li>
@@ -208,6 +208,9 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Fouc fix -->
+    <script src="/fouc_fix.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up"></i></button>

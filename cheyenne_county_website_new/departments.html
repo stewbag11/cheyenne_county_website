@@ -8,11 +8,6 @@
         content="Learn more about our different Departments, their Contact Methods, & the Men/Women who uphold them.">
     <title>Departments | Cheyenne County Colorado</title>
 
-    <!-- Google fonts for Roboto and Nunito -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
     <!-- Default styling -->
     <link rel="stylesheet" href="base.css">
 
@@ -26,7 +21,7 @@
     <link rel="icon" type="image/x-icon" href="/imgs/county_logo_favicon.ico">
 </head>
 
-<body>
+<body id="body" style="display: none;">
     <nav>
         <!-- Nav top -->
         <div class="top-nav">
@@ -70,7 +65,7 @@
                 <h3><a href="/departments/ambulance_service.html">Ambulance Service</a></h3>
             </li>
             <li>
-                <h3><a href="/departments/assessor.html">Assessor</a></h3>
+                <h3><a href="/departments/assessor.html">Assessor's Office</a></h3>
             </li>
             <li>
                 <h3><a href="/departments/clerk_recorder.html">Clerk &amp; Recorder</a></h3>
@@ -98,7 +93,7 @@
                 <h3><a href="/departments/emergency_preparedness.html">Emergency Preparedness</a></h3>
             </li>
             <li>
-                <h3><a href="/departments/extension.html">Extension</a></h3>
+                <h3><a href="/departments/extension.html">Extension Office</a></h3>
             </li>
             <li>
                 <h3><a href="/departments/landfill.html">Firstview Landfill</a></h3>
@@ -125,10 +120,10 @@
                 <h3><a href="/departments/road_bridge.html">Road &amp; Bridge</a></h3>
             </li>
             <li>
-                <h3><a href="/departments/sheriff.html">Sheriff</a></h3>
+                <h3><a href="/departments/sheriff.html">Sheriff's Office</a></h3>
             </li>
             <li>
-                <h3><a href="/departments/treasurer.html">Treasurer</a></h3>
+                <h3><a href="/departments/treasurer.html">Treasurer's Office</a></h3>
             </li>
             <li>
                 <h3><a href="/departments/veterans_officer.html">Veteran's Officer</a></h3>
@@ -186,6 +181,9 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Fouc fix -->
+    <script src="fouc_fix.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up"></i></button>

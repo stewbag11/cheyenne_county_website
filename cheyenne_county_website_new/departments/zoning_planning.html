@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Learn more about Zoning & Planning, the administrator in charge, & useful information surrounding it.">
-    <title>Zoning &amp; Planning / Land Use | Cheyenne County Colorado</title>
-
-    <!-- Google fonts for Roboto and Nunito -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <title>Zoning &amp; Planning/Land Use | Cheyenne County Colorado</title>
 
     <!-- Default styling -->
     <link rel="stylesheet" href="/base.css">
@@ -26,7 +21,7 @@
     <link rel="icon" type="image/x-icon" href="/imgs/county_logo_favicon.ico">
 </head>
 
-<body>
+<body id="body" style="display: none;">
     <nav>
         <!-- Nav top -->
         <div class="top-nav">
@@ -59,7 +54,7 @@
     <!-- Zoning & Planning/Land Use -->
     <section class="initial-content">
         <header>
-            <h1>Zoning &amp; Planning / Land Use</h1>
+            <h1>Zoning &amp; Planning/Land Use</h1>
         </header>
 
         <ul>
@@ -76,7 +71,7 @@
             <li><a href="mailto:landuse@co.cheyenne.co.us" target="_blank">landuse@co.cheyenne.co.us</a></li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li>
                 <h2>Contact For</h2>
             </li>
@@ -103,7 +98,8 @@
             </li>
             <li><a href="/pdfs/zoning_application_permit_install_alter_repair_sewage_2022.pdf"
                     target="_blank">Application for a Permit to Install, Alter or Repair an Individual Sewage
-                    Disposal System</a> (Please contact the Public Health office for this)</li>
+                    Disposal System</a></li>
+            <li>(Please contact the Public Health office for this)</li>
         </ul>
 
         <ul>
@@ -114,10 +110,8 @@
             <li><a href="/pdfs/zoning_comprehensive_plan_zoning_ordinance_2022.pdf" target="_blank">Comprehensive
                     Plan
                     and Zoning Ordinance</a></li>
-            <li><a href="/pdfs/zoning_1041_adopted_regs_2019.pdf" target="_blank">Adopted 1041 Regulations</a> (Land
-                Use
-                Regulations Ares &amp; Activites
-                of State Interest)</li>
+            <li><a href="/pdfs/zoning_1041_adopted_regs_2019.pdf" target="_blank">Adopted 1041 Regulations</a></li>
+            <li>(Land Use Regulations Ares &amp; Activites of State Interest)</li>
         </ul>
 
         <ul>
@@ -194,7 +188,7 @@
             <li>Elevation: 4094 Base Elevation</li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li><strong>All tower configurations are analogues:</strong></p>
             </li>
             <li>&bull; 197' above ground level</li>
@@ -214,7 +208,7 @@
             <li>Elevation: 3972 Base Elevation</li>
         </ul>
 
-        <ul>
+        <ul class="bulleted-list">
             <li><strong>Tower configuration information:</strong></li>
             <li>&bull; 197' above ground level</li>
             <li>&bull; Orange aviation buoys 15' down each guy wire</li>
@@ -276,6 +270,9 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Fouc fix -->
+    <script src="/fouc_fix.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up"></i></button>

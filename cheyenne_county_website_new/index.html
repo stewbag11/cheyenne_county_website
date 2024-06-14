@@ -8,11 +8,6 @@
         content="Welcome to Cheyenne County, Colorado. Visit our site to learn more about our Cities, Departments, Officials & more.">
     <title>Home | Cheyenne County Colorado</title>
 
-    <!-- Google fonts for Roboto and Nunito -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
     <!-- Default styling -->
     <link rel="stylesheet" href="base.css">
 
@@ -26,7 +21,7 @@
     <link rel="icon" type="image/x-icon" href="/imgs/county_logo_favicon.ico">
 </head>
 
-<body>
+<body id="body" style="display: none;">
     <nav>
         <!-- Nav top -->
         <div class="top-nav">
@@ -108,6 +103,7 @@
         <header>
             <h2>Courthouse</h2>
         </header>
+
         <ul>
             <li>
                 <h3>Hours</h3>
@@ -115,6 +111,7 @@
             <li>Monday - Friday</li>
             <li>8:00 am - 4:00 pm (MT)</li>
         </ul>
+
         <ul>
             <li>
                 <h3>Location</h3>
@@ -126,12 +123,14 @@
             <li><a href="/pdfs/county_map.pdf" target="_blank">County
                     Map</a></li>
         </ul>
+
         <ul>
             <li>
                 <h3>Contact</h3>
             <li><a href="tel:7197675649">(719)-767-5649</a></li>
             <li><a href="mailto:ccadmin@rebeltec.net" target="_blank">ccadmin@rebeltec.net</a></li>
         </ul>
+
         <ul>
             <li>
                 <h3>Sales Tax</h3>
@@ -158,7 +157,8 @@
         <ul>
             <li><a href="special_districts.html">Special Districts</a></li>
         </ul>
-        <ul>
+
+        <ul class="bulleted-list">
             <li>
                 <h3>Archery and Sports Shooting Range Board Member Openings</h3>
             </li>
@@ -230,6 +230,9 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Fouc fix -->
+    <script src="fouc_fix.js"></script>
 
     <!-- Slideshow functionality-->
     <script src="slideshow_auto.js"></script>

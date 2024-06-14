@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Learn more about our County Assessors, useful Assesor information, & the individuals upholding the positions.">
-    <title>Assessor | Cheyenne County Colorado</title>
-
-    <!-- Google fonts for Roboto and Nunito -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <title>Assessor's Office | Cheyenne County Colorado</title>
 
     <!-- Default styling -->
     <link rel="stylesheet" href="/base.css">
@@ -26,7 +21,7 @@
     <link rel="icon" type="image/x-icon" href="/imgs/county_logo_favicon.ico">
 </head>
 
-<body>
+<body id="body" style="display: none;">
     <nav>
         <!-- Nav top -->
         <div class="top-nav">
@@ -58,7 +53,7 @@
     <!-- Assessor -->
     <section class="initial-content">
         <header>
-            <h1>Assessor</h1>
+            <h1>Assessor's Office</h1>
         </header>
 
         <ul>
@@ -122,8 +117,9 @@
             <li>
                 <h2>Document Viewing Software</h2>
             </li>
-            <li>You must have Adobe Acrobat Reader to view some documents on this page.</li>
-            <li><a href="https://get.adobe.com/reader/" target="_blank">Adobe Acrobat Reader</a></li>
+            <li>You must have <a href="https://get.adobe.com/reader/" target="_blank">Adobe Acrobat Reader</a> to view
+                some
+                documents on this page.</li>
         </ul>
 
         <ul>
@@ -183,7 +179,19 @@
         </ul>
 
         <ul>
-            <li>(all links below will download an .xlsx file)</li>
+            <li>
+                <h2>File Viewing Software</h2>
+            </li>
+            <li>You must have <a href="https://www.microsoft.com/en-us/microsoft-365/download-office"
+                    target="_blank">Microsoft
+                    Office</a>, <a href="https://www.libreoffice.org/download/download-libreoffice/"
+                    target="_blank">Libre Office</a>, or use <a href="https://www.office.com/" target="_blank">Microsoft
+                    365</a> to view the files
+                below.
+            </li>
+        </ul>
+
+        <ul>
             <li><a href="/pdfs/mineral_sales_2024.xlsx">Mineral Sales</a></li>
             <li><a href="/pdfs/rural_sales_2024.xls">Rural Sales</a></li>
             <li><a href="/pdfs/town_sales_2024.xls">Town Sales</a></li>
@@ -251,6 +259,9 @@
         </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Fouc fix -->
+    <script src="/fouc_fix.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up"></i></button>
