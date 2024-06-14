@@ -9,7 +9,7 @@
    - Wild Horse (School House on North Side)
 
 ** Before Deployment
-   - Check codebase file structure and change if need be
-   - Metadata description similar on all pages, not inconsistent
+   - Metadata description similar on all pages
    - Recheck current info on all pages and codebase to ensure accuracy
+   - Regular development version and minified production version
    - Create README for client to make any and all edits with or without a CMS
