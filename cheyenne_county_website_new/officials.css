@@ -1,9 +1,1 @@
-/* nav underline */
-.main-nav-links .active:after {
-    width: 4.25rem;
-}
-
-/* header underline size */
-h1:after {
-    width: 10.5rem;
-}
+.main-nav-links .active:after{width:4.25rem}h1:after{width:10.5rem}
