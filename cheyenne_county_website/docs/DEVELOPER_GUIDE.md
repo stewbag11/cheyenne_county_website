@@ -15,11 +15,11 @@ Edits are typically handled by the County Administrator using Visual Studio Code
 
 ## Styling & JavaScript
 1. **CSS**
-    - Edit styles in '/css/file.css'. The 'base.css' file contains foundational styling.
+    - Edit styles in `/css/file.css`. The `base.css` file contains foundational styling.
     - *Note:* All CSS files are minified. Use an online CSS unminifier if needed.
 
 2. **JavaScript**
-    - Implement functionality adjustments in '/js/file.js'.
+    - Implement functionality adjustments in `/js/file.js`.
 
 ## Troubleshooting & Support
 For any issues or inquiries, please contact:
