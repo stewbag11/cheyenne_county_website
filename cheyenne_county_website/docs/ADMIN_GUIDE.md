@@ -19,13 +19,13 @@ Welcome to the Cheyenne County website admin guide. The Cheyenne County website 
 2. **Edit Content**
     - Modify the text between the HTML tags. For example, to change the welcome message, locate:
 
-        `<header>`
-            `<h1>Welcome</h1>`
-        `</header>`
+        `<header>
+            <h1>Welcome</h1>
+        </header>
 
-        `<ul>`
-            `<li>We thank you for visiting Cheyenne County, Colorado!...</li>`
-        `</ul>`
+        <ul>
+            <li>We thank you for visiting Cheyenne County, Colorado!...</li>
+        </ul>`
 
     - Edit the content within the `<li>` tags.
     - When adding a new section, ensure all necessary tags are copied and updated accordingly.
