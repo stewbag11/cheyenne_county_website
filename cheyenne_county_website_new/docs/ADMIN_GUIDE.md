@@ -19,22 +19,23 @@ Welcome to the Cheyenne County website admin guide. The Cheyenne County website 
 2. **Edit Content**
     - Modify the text between the HTML tags. For example, to change the welcome message, locate:
 
-        <h1>Welcome</h1>
+        '<h1>Welcome</h1>
         <ul>
             <li>We thank you for visiting Cheyenne County, Colorado!...</li>
-        </ul>
+        </ul>'
 
     - Edit the content within the '<li>' tags.
     - When adding a new section, ensure all necessary tags are copied and updated accordingly.
 
 3. **Update Links & Images**
-    - To update links, modify the 'href' attribute in the '<a>' tags. For example:
+    - To update links, first ensure desired file(s) are in the correct folder (e.g., images '/assets/imgs' all other files '/pdfs/') 
+    - Then modify the 'href' attribute in the '<a>' tags. For example:
 
-        <li><a href="https://www.google.com/maps?q=51+S+1st+St+E,+Cheyenne+Wells,+CO+80810" target="_blank">51 S 1st St E, Cheyenne Wells, CO 80810</a></li>
+        '<li><a href="https://www.google.com/maps?q=51+S+1st+St+E,+Cheyenne+Wells,+CO+80810" target="_blank">51 S 1st St E, Cheyenne Wells, CO 80810</a></li>'
 
     - To change images, update the src attribute in the <img> tags:
 
-        <img src="/assets/images/welcome.jpeg" alt="Welcome to Colorado Sign">
+        '<img src="/assets/images/welcome.jpeg" alt="Welcome to Colorado Sign">'
 
 4. **Save Changes**
     - Save your changes in Visual Studio Code (Ctrl+S or File > Save). Live Server will automatically refresh the browser to display the updates.
