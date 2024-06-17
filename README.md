@@ -1,11 +1,11 @@
 # Cheyenne County, CO Website
-Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG compliance, completed within 2 months as my first website development endeavor.
+Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG AAA compliance, completed within 2 months as my first website development endeavor.
 
 ## Overview
-This repository showcases the complete rewrite of the Cheyenne County website, emphasizing ADA (Americans with Disabilities Act) and WCAG (Web Content Accessibility Guidelines) compliance. The project aimed to enhance user experience for all visitors by ensuring accessibility requirements are met while providing essential information about Cheyenne County, Colorado.
+This repository showcases the complete rewrite of the Cheyenne County website, emphasizing ADA (Americans with Disabilities Act) and WCAG (Web Content Accessibility Guidelines) AAA compliance. The project aimed to enhance user experience for all visitors by ensuring accessibility requirements are met while providing essential information about Cheyenne County, Colorado.
 
 ## Project Details
-- **Development Focus:** Designed and developed to meet ADA and WCAG standards for web accessibility.
+- **Development Focus:** Designed and developed to meet ADA and WCAG AAA standards for web accessibility.
 - **Technologies Used:** HTML, CSS, JavaScript for frontend development.
 - **Tools & Environment:** Utilized Visual Studio Code for coding, Live Server for real-time preview, and FTP for deployment.
 - **Achievements:** Successfully completed within a span of 2 months as my first major web development project.
