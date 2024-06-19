@@ -20,8 +20,7 @@ The project is organized to facilitate easy maintenance and updates, with a clea
 
 ## Installation and Setup
 - Clone the repository:
-   `sh
-   git clone https://github.com/stewbag69/cheyenne-county-website.git`
+   `git clone https://github.com/stewbag69/cheyenne-county-website.git`
 - View the website with live server of your choice.
 
 ## Disclaimer
