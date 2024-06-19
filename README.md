@@ -15,6 +15,19 @@ This repository showcases the complete rewrite of the Cheyenne County website, e
 - **Responsive Design:** Ensured seamless viewing and navigation across various devices.
 - **User-Centric Navigation:** Streamlined user experience for easy access to county information and services.
 
+## Before & After
+### Home Page - Before
+![Home Page Before](/screenshots/cheyenne_county_home_before.png?raw=true "Home Page Before")
+
+### Home Page - After
+![Home Page After](/screenshots/cheyenne_county_home_after.png?raw=true "Home Page After")
+
+### Departments Page - Before
+![Departments Page Before](/screenshots/cheyenne_county_departments_before.png?raw=true "Departments Page Before")
+
+### Departments Page - After
+![Departments Page After](/screenshots/cheyenne_county_departments_after.png?raw=true "Departments Page After")
+
 ## Project Structure
 The project is organized to facilitate easy maintenance and updates, with a clear separation of frontend assets and a focus on scalability.
 
