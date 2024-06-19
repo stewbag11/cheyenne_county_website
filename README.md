@@ -1,5 +1,17 @@
+<a id="top"></a>
+
 # Cheyenne County, CO Website
 Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG AAA compliance, completed within 2 months as my first website development endeavor.
+
+## Table of Contents
+- [Overview](#overview)
+- [Project Details](#project-details)
+- [Key Features](#key-features)
+- [Before and After](#before-and-after)
+- [Project Structure](#project-structure)
+- [Installation and Setup](#installation-and-setup)
+- [Disclaimer](#disclaimer)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 This repository showcases the complete rewrite of the Cheyenne County website, emphasizing ADA (Americans with Disabilities Act) and WCAG (Web Content Accessibility Guidelines) AAA compliance. The project aimed to enhance user experience for all visitors by ensuring accessibility requirements are met while providing essential information about Cheyenne County, Colorado.
@@ -15,7 +27,7 @@ This repository showcases the complete rewrite of the Cheyenne County website, e
 - **Responsive Design:** Ensured seamless viewing and navigation across various devices.
 - **User-Centric Navigation:** Streamlined user experience for easy access to county information and services.
 
-## Before & After
+## Before and After
 ### Home Page - Before
 ![Home Page Before](/screenshots/cheyenne_county_home_before.png?raw=true "Home Page Before")
 
@@ -41,3 +53,5 @@ This repository is made available for viewing purposes only. Redistribution, mod
 
 ## Acknowledgments
 Special thanks to everyone who provided feedback and support during the development of this project.
+
+[Back to Top](#top)
