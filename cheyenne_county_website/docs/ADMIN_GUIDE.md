@@ -9,7 +9,7 @@ Welcome to the Cheyenne County website admin guide. The Cheyenne County website 
     - Open the website folder by selecting `File > Open Folder` and navigate to the folder containing website files.
 
 2. **Start Live Server**
-    - Click the bottom right corner of Visual Studio Code where it says 'Go Live' to start Live Server, which allows you to view edits as if they were on the server
+    - Click the bottom right corner of Visual Studio Code where it says `Go Live` to start Live Server, which allows you to view edits as if they were on the server
 
 ### Modifying Content
 1. **Locate Editable Section**

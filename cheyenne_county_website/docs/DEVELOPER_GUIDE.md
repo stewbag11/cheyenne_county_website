@@ -2,10 +2,10 @@
 Welcome to the Cheyenne County website developer guide. This document aims to guide developers through the structure, technologies used, and processes involved in maintaining and enhancing the website.
 
 ## Technologies Used
-    - Frontend: HTML, CSS, JavaScript
-    - Tools: Visual Studio Code, Live Server
-    - Deployment: FTP
-    - Version Control: Git, Github
+- Frontend: HTML, CSS, JavaScript
+- Tools: Visual Studio Code, Live Server
+- Deployment: FTP
+- Version Control: Git, Github
 
 ## Project Structure
 The project follows a straightforward structure to facilitate easy maintenance and updates.
