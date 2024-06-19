@@ -20,6 +20,7 @@ Edits are typically handled by the County Administrator using Visual Studio Code
 
 2. **JavaScript**
     - Implement functionality adjustments in `/js/file.js`.
+    - *Note:* All JS files are minified. Use an online JS unminifier if needed.
 
 ## Troubleshooting & Support
 For any issues or inquiries, please contact:
