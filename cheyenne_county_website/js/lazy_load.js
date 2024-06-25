@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll(".lazy");t.forEach(function(t){t.addEventListener("load",function(){t.classList.add("loaded")}),t.src=t.getAttribute("data-src")})});

@@ -36,7 +36,7 @@
         <!-- Nav logo -->
         <div class="logo">
             <a href="index.html">
-                <img src="/assets/imgs/county_logo.png" alt="Cheyenne County Logo">
+                <img src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo">
             </a>
         </div>
         <!-- Nav logo end-->
@@ -55,19 +55,23 @@
     <div class="slideshow">
         <!-- Slides -->
         <div class="slide slide-fade">
-            <img src="/assets/imgs/welcome.jpeg" alt="Welcome to Colorado Sign">
+            <img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/welcome.webp" alt="Welcome to Colorado Sign"
+                class="lazy">
         </div>
         <div class="slide slide-fade">
-            <img src="/assets/imgs/windmills.jpeg" alt="Windmills Slide">
+            <img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/windmills.webp" alt="Windmills Slide"
+                class="lazy">
         </div>
         <div class="slide slide-fade">
-            <img src="/assets/imgs/grainmill.jpeg" alt="Grainmill in Cheyenne Wells">
+            <img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/grainmill.webp"
+                alt="Grainmill in Cheyenne Wells" class="lazy">
         </div>
         <div class="slide slide-fade">
-            <img src="/assets/imgs/oil_pump.jpeg" alt="Oil Pump">
+            <img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/oil_pump.webp" alt="Oil Pump" class="lazy">
         </div>
         <div class="slide slide-fade">
-            <img src="/assets/imgs/moon_field.jpeg" alt="Moon in Field">
+            <img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/moon_field.webp" alt="Moon in Field"
+                class="lazy">
         </div>
         <!-- Slides end -->
     </div>
@@ -120,7 +124,7 @@
                     St
                     E, Cheyenne
                     Wells, CO 80810</a></li>
-            <li><a href="/pdfs/county_map.pdf" target="_blank">County
+            <li><a href="/assets/pdfs/county_map.pdf" target="_blank">County
                     Map</a></li>
         </ul>
 
@@ -142,21 +146,12 @@
         </ul>
     </div>
 
-    <hr class=" border">
+    <hr class="border">
 
     <div class="initial-content">
         <header>
             <h2>Notices</h2>
         </header>
-        <ul>
-            <li>County offices will be closed on <em>Wednesday, June 19, 2024</em> for <a
-                    href="https://nmaahc.si.edu/explore/stories/historical-legacy-juneteenth" target="_blank">Juneteenth
-                    National Independence Day.</a></li>
-        </ul>
-
-        <ul>
-            <li><a href="special_districts.html">Special Districts</a></li>
-        </ul>
 
         <ul class="bulleted-list">
             <li>
@@ -176,11 +171,15 @@
         </ul>
 
         <ul>
-            <li><a href="/pdfs/county_equipment_notice.pdf" target="_blank">County
+            <li><a href="/assets/pdfs/county_equipment_notice.pdf" target="_blank">County
                     Equipment
                     Notice</a></li>
             <li>Legal publications for the County are published in the Kiowa County Independent newspaper.
             </li>
+        </ul>
+
+        <ul>
+            <li><a href="special_districts.html">Special Districts</a></li>
         </ul>
     </div>
     <!-- Home end -->
@@ -233,6 +232,9 @@
 
     <!-- Fouc fix -->
     <script src="/js/fouc_fix.js"></script>
+
+    <!-- Lazy loading fix -->
+    <script src="/js/lazy_load.js"></script>
 
     <!-- Slideshow functionality-->
     <script src="/js/slideshow_auto.js"></script>
