@@ -24,6 +24,6 @@ Edits are typically handled by the County Administrator using Visual Studio Code
 
 ## Troubleshooting & Support
 For any issues or inquiries, please contact:
-    - Spencer Dennison
-    - spencerdennison@gmail.com
-    - (706)-978-2795
+    - Spencer Dennison | spencerdennison@gmail.com | (706)-978-2795
+
+Or visit the github repo for the project development [Here](https://github.com/stewbag69/cheyenne_county_website)

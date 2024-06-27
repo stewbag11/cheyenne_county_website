@@ -57,4 +57,7 @@ Welcome to the Cheyenne County website admin guide. The Cheyenne County website 
 
 ### Contact Information
 
-If you encounter any issues or have questions, please contact: - Spencer Dennison - spencerdennison@gmail.com - (706)-978-2795
+If you encounter any issues or have questions, please contact: 
+    - Spencer Dennison | spencerdennison@gmail.com | (706)-978-2795
+  
+Or visit the github repo for the project development [Here](https://github.com/stewbag69/cheyenne_county_website)
