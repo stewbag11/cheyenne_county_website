@@ -4,14 +4,22 @@
 Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG AAA compliance for the Cheyenne County website, completed within 2 months as my first website development endeavor.
 
 ## Table of Contents
-- [Overview](#overview)
-- [Project Details](#project-details)
-- [Key Features](#key-features)
-- [Before and After](#before-and-after)
-- [Project Structure](#project-structure)
-- [Installation and Setup](#installation-and-setup)
-- [Disclaimer](#disclaimer)
-- [Acknowledgments](#acknowledgments)
+- [Cheyenne County, CO Website](#cheyenne-county-co-website)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Project Details](#project-details)
+  - [Key Features](#key-features)
+  - [Before and After](#before-and-after)
+    - [Home Page - Before](#home-page---before)
+    - [Home Page - After](#home-page---after)
+    - [Departments Page - Before](#departments-page---before)
+    - [Departments Page - After](#departments-page---after)
+    - [Metrics - Before](#metrics---before)
+    - [Metrics - After](#metrics---after)
+  - [Project Structure](#project-structure)
+  - [Installation and Setup](#installation-and-setup)
+  - [Disclaimer](#disclaimer)
+  - [Acknowledgments](#acknowledgments)
 
 ## Overview
 This repository showcases the complete rewrite of the Cheyenne County website, emphasizing ADA (Americans with Disabilities Act) and WCAG (Web Content Accessibility Guidelines) AAA compliance. The project aimed to enhance user experience for all visitors by ensuring accessibility requirements are met while providing essential information about Cheyenne County, Colorado.
@@ -39,6 +47,12 @@ This repository showcases the complete rewrite of the Cheyenne County website, e
 
 ### Departments Page - After
 ![Departments Page After](/screenshots/cheyenne_county_departments_after.png?raw=true "Departments Page After")
+
+### Metrics - Before
+![Metrics Before](/screenshots/old_website_desktop_metrics.png?raw=true "Departments Page After")
+
+### Metrics - After
+![Metrics After](/screenshots/new_website_desktop_metrics.png?raw=true "Departments Page After")
 
 ## Project Structure
 The project is organized to facilitate easy maintenance and updates, with a clear separation of frontend assets and a focus on scalability.
