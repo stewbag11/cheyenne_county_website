@@ -4,6 +4,8 @@
 Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG AAA compliance for the Cheyenne County website, completed within 2 months as my first website development endeavor.
 
 ## Table of Contents
+- [Cheyenne County, CO Website](#cheyenne-county-co-website)
+  - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Project Details](#project-details)
   - [Key Features](#key-features)
@@ -47,10 +49,10 @@ This repository showcases the complete rewrite of the Cheyenne County website, e
 ![Departments Page After](/screenshots/cheyenne_county_departments_after.png?raw=true "Departments Page After")
 
 ### Metrics - Before
-![Metrics Before](/screenshots/old_website_desktop_metrics.png?raw=true "Departments Page After")
+![Metrics Before](/screenshots/old_website_desktop_metrics.png?raw=true "Metrics Before")
 
 ### Metrics - After
-![Metrics After](/screenshots/new_website_desktop_metrics.png?raw=true "Departments Page After")
+![Metrics After](/screenshots/new_website_desktop_metrics.png?raw=true "Metrics After")
 
 ## Project Structure
 The project is organized to facilitate easy maintenance and updates, with a clear separation of frontend assets and a focus on scalability.
