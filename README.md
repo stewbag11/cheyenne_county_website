@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 # Cheyenne County, CO Website
-Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG AAA compliance, completed within 2 months as my first website development endeavor.
+Welcome to the Cheyenne County Website repository, a project focused on achieving ADA and WCAG AAA compliance for the Cheyenne County website, completed within 2 months as my first website development endeavor.
 
 ## Table of Contents
 - [Overview](#overview)
