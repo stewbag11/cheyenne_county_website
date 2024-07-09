@@ -48,12 +48,22 @@ Welcome to the Cheyenne County website admin guide. The Cheyenne County website 
         `<img src="/assets/imgs/welcome.jpeg" alt="Welcome to Colorado Sign">`
 
 4. **Save Changes**
+    
     - Save your changes in Visual Studio Code `Ctrl+S or File > Save`. Live Server will automatically refresh the browser to display the updates.
 
 ### Uploading Changes
 
     - Push the updated website folder via FTP.
     - Verify changes on the live website to ensure proper implementation.
+
+### Extensions
+
+    - Five Server (Live Server)
+    - Gruvbox (Theme)
+    - Prettier (Formatting)
+    - Vscode-icons (Icons)
+    - HTML CSS Support (Auto Completion)
+    - Markdown All-in-One (README Support)
 
 ### Contact Information
 
