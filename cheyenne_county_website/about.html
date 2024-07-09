@@ -46,13 +46,33 @@
             <a class="grow" href="officials.html">Officials</a>
             <a class="grow" href="departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="menu__item grow" href="index.html">Home</a></li>
+                <li><a class="active menu__item" href="about.html">About</a></li>
+                <li><a class="menu__item grow" href="officials.html">Officials</a></li>
+                <li><a class="menu__item grow" href="departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
 
     <hr class="border">
 
     <!-- About -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>About</h1>
         </header>
@@ -68,7 +88,8 @@
                 indigenous tribes like the Cheyenne Indians, our region attracted settlers seeking fertile land and
                 economic
                 opportunity.</li>
-            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/county_courthouse.webp" alt="Cheyenne County Courthouse" class="lazy"></li>
+            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/county_courthouse.webp"
+                    alt="Cheyenne County Courthouse" class="lazy"></li>
         </ul>
 
         <ul>
@@ -82,7 +103,8 @@
                 of our county. Today, it serves as a hub of activity and a focal point of our shared heritage, embodying
                 the resilience
                 and perseverance of our residents.</li>
-            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/cheyenne_wells_entrance.webp" alt="Cheyenne Wells Entrance" class="lazy"></li>
+            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/cheyenne_wells_entrance.webp"
+                    alt="Cheyenne Wells Entrance" class="lazy"></li>
         </ul>
 
         <ul>
@@ -96,7 +118,8 @@
                 center for trade and commerce, Kit Carson continues to be a vital part of our county, preserving the
                 legacy of those who
                 came before us.</li>
-            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/kit_carson_museum.webp" alt="Kit Carson Musuem" class="lazy"></li>
+            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/kit_carson_museum.webp"
+                    alt="Kit Carson Musuem" class="lazy"></li>
         </ul>
 
         <ul>
@@ -110,7 +133,8 @@
                 contributions
                 to agriculture and industry, Arapahoe serves as a living testament to our county's resilience and
                 adaptability.</li>
-            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/arapahoe_post_office.webp" alt="Arapahoe Post Office" class="lazy"></li>
+            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/arapahoe_post_office.webp"
+                    alt="Arapahoe Post Office" class="lazy"></li>
         </ul>
 
         <ul>
@@ -128,7 +152,8 @@
                 to
                 those seeking
                 a new life on the frontier.</li>
-            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/wild_horse_schoolhouse.webp" alt="Wild Horse Schoolhouse" class="lazy"></li>
+            <li><img src="/assets/imgs/placeholder.webp" data-src="/assets/imgs/wild_horse_schoolhouse.webp"
+                    alt="Wild Horse Schoolhouse" class="lazy"></li>
         </ul>
     </section>
     <!-- About end -->
@@ -182,7 +207,10 @@
     <script src="/js/fouc_fix.js"></script>
 
     <!-- Lazy loading fix -->
-     <script src="/js/lazy_load.js"></script>
+    <script src="/js/lazy_load.js"></script>
+
+    <!-- Hamburger Menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>

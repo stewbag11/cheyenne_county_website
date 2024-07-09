@@ -47,12 +47,32 @@
             <a class="grow" href="/officials.html">Officials</a>
             <a class="active grow" href="/departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="menu__item" href="/index.html">Home</a></li>
+                <li><a class="menu__item grow" href="/about.html">About</a></li>
+                <li><a class="menu__item grow" href="/officials.html">Officials</a></li>
+                <li><a class="active menu__item" href="/departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="/jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="/boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="/districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
     <hr class="border">
 
     <!-- Administrator -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>Administrator</h1>
         </header>
@@ -74,19 +94,19 @@
             <li><a href="mailto:ccadmin@rebeltec.net" target="_blank">ccadmin@rebeltec.net</a></li>
         </ul>
 
-        <ul class="bulleted-list">
+        <ul class="list">
             <li>
                 <h2>Contact For</h2>
             </li>
-            <li>&bull; County Budget</li>
-            <li>&bull; County Grants</li>
-            <li>&bull; Projects for bid</li>
-            <li>&bull; Road &amp; Bridge: Gravel Pits, Grants, Etc.</li>
-            <li>&bull; Commissioner Meeting Agendas</li>
-            <li>&bull; Scheduling appointments with the County Commissioners</li>
-            <li>&bull; Special District Correspondence</li>
-            <li>&bull; County's property and liability insurance &amp; workman's compensation insurance</li>
-            <li>&bull; Personal Policies</li>
+            <li>County Budget</li>
+            <li>County Grants</li>
+            <li>Projects for bid</li>
+            <li>Road &amp; Bridge: Gravel Pits, Grants, Etc.</li>
+            <li>Commissioner Meeting Agendas</li>
+            <li>Scheduling appointments with the County Commissioners</li>
+            <li>Special District Correspondence</li>
+            <li>County's property and liability insurance &amp; workman's compensation insurance</li>
+            <li>Personal Policies</li>
         </ul>
 
         <ul>
@@ -165,6 +185,9 @@
 
     <!-- Fouc fix -->
     <script src="/js/fouc_fix.js"></script>
+
+    <!-- Hamburger menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>

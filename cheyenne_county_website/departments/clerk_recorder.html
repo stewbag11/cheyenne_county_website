@@ -47,12 +47,32 @@
             <a class="grow" href="/officials.html">Officials</a>
             <a class="active grow" href="/departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="menu__item" href="/index.html">Home</a></li>
+                <li><a class="menu__item grow" href="/about.html">About</a></li>
+                <li><a class="menu__item grow" href="/officials.html">Officials</a></li>
+                <li><a class="active menu__item" href="/departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="/jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="/boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="/districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
     <hr class="border">
 
     <!-- Clerk & Recorder -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>Clerk &amp; Recorder</h1>
         </header>
@@ -337,6 +357,9 @@
 
     <!-- Fouc fix -->
     <script src="/js/fouc_fix.js"></script>
+
+    <!-- Hamburger menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>

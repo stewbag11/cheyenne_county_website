@@ -47,13 +47,33 @@
             <a class="grow" href="/officials.html">Officials</a>
             <a class="active grow" href="/departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="menu__item" href="/index.html">Home</a></li>
+                <li><a class="menu__item grow" href="/about.html">About</a></li>
+                <li><a class="menu__item grow" href="/officials.html">Officials</a></li>
+                <li><a class="active menu__item" href="/departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="/jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="/boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="/districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
 
     <hr class="border">
 
     <!-- Zoning & Planning/Land Use -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>Zoning &amp; Planning/Land Use</h1>
         </header>
@@ -72,14 +92,14 @@
             <li><a href="mailto:landuse@co.cheyenne.co.us" target="_blank">landuse@co.cheyenne.co.us</a></li>
         </ul>
 
-        <ul class="bulleted-list">
+        <ul class="list">
             <li>
                 <h2>Contact For</h2>
             </li>
-            <li>&bull; Conditional Use Permits</li>
-            <li>&bull; Subdivision Exemptions</li>
-            <li>&bull; Building Permits</li>
-            <li>&bull; Wind Energy
+            <li>Conditional Use Permits</li>
+            <li>Subdivision Exemptions</li>
+            <li>Building Permits</li>
+            <li>Wind Energy
                 Development.</li>
         </ul>
 
@@ -194,12 +214,12 @@
             <li>Elevation: 4094 Base Elevation</li>
         </ul>
 
-        <ul class="bulleted-list">
+        <ul class="list">
             <li><strong>All tower configurations are analogues:</strong></li>
-            <li>&bull; 197' above ground level</li>
-            <li>&bull; Aviation buoys 15' down each guy wire fro the top of the tower</li>
-            <li>&bull; Guy wires extending in the cardinal directions 45m</li>
-            <li>&bull; Red / White dot reflective tape at the top of the tower</li>
+            <li>197' above ground level</li>
+            <li>Aviation buoys 15' down each guy wire fro the top of the tower</li>
+            <li>Guy wires extending in the cardinal directions 45m</li>
+            <li>Red / White dot reflective tape at the top of the tower</li>
         </ul>
 
         <ul>
@@ -213,11 +233,11 @@
             <li>Elevation: 3972 Base Elevation</li>
         </ul>
 
-        <ul class="bulleted-list">
+        <ul class="list">
             <li><strong>Tower configuration information:</strong></li>
-            <li>&bull; 197' above ground level</li>
-            <li>&bull; Orange aviation buoys 15' down each guy wire</li>
-            <li>&bull; Guy wires extending in the cardinal directions 50m</li>
+            <li>197' above ground level</li>
+            <li>Orange aviation buoys 15' down each guy wire</li>
+            <li>Guy wires extending in the cardinal directions 50m</li>
         </ul>
 
         <ul class="departments-nav">
@@ -276,6 +296,9 @@
 
     <!-- Fouc fix -->
     <script src="/js/fouc_fix.js"></script>
+
+    <!-- Hamburger menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>

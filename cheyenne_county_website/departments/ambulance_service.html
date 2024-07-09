@@ -47,13 +47,33 @@
             <a class="grow" href="/officials.html">Officials</a>
             <a class="active grow" href="/departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="menu__item" href="/index.html">Home</a></li>
+                <li><a class="menu__item grow" href="/about.html">About</a></li>
+                <li><a class="menu__item grow" href="/officials.html">Officials</a></li>
+                <li><a class="active menu__item" href="/departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="/jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="/boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="/districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
 
     <hr class="border">
 
     <!-- Ambulance Service -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>Ambulance Service</h1>
         </header>
@@ -63,17 +83,15 @@
             <li><a href="https://www.google.com/maps/place/Cheyenne+Wells,+CO+80810/@38.8200758,-102.3623482,15z/data=!3m1!4b1!4m6!3m5!1s0x870c8dfca7366091:0x6e4c54b6188815d4!8m2!3d38.821395!4d-102.3532435!16zL20vMHI5NWI?entry=ttu"
                     target="_blank">Cheyenne
                     Wells, CO 80810</a></li>
-            <li>Phone: <a href="tel:7197675271">(719)-767-5271</a></li>
-            <li>Fax: <a href="tel:7197675271">(719)-767-5271</a></li>
-            <li>Cell: <a href="tel:7193423120">(719)-342-3120</a></li>
+            <li>Phone: <a href="tel:">Currently Unavaliable</a></li>
         </ul>
 
         <ul>
             <li>
                 <h2>Ambulance Coordinator</h2>
             </li>
-            <li><em>Scott Nyman</em></li>
-            <li><a href="mailto:ccas.ems.director@gmail.com" target="_blank">ccas.ems.director@gmail.com</a></li>
+            <li><em>Currently Vacant</em></li>
+            <li><a href="mailto:" target="_blank"></a></li>
         </ul>
 
         <ul>
@@ -144,6 +162,9 @@
 
     <!-- Fouc fix -->
     <script src="/js/fouc_fix.js"></script>
+
+    <!-- Hamburger menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>

@@ -46,13 +46,33 @@
             <a class="grow" href="officials.html">Officials</a>
             <a class="grow" href="departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item grow" href="about.html">About</a></li>
+                <li><a class="menu__item grow" href="officials.html">Officials</a></li>
+                <li><a class="menu__item grow" href="departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
 
     <hr class="border">
 
     <!-- Accessibility -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>Accessibility</h1>
         </header>
@@ -73,17 +93,17 @@
             <li>
                 <h2>Our Commitment</h2>
             </li>
-            <li>&bull; Continuously strive to improve the accessibility of our site.</li>
-            <li>&bull; Make our content accessible to everyone, regardless of disability.</li>
-            <li>&bull; Welcome feedback to help us further enhance accessibility and accommodate diverse needs.</li>
+            <li>Continuously strive to improve the accessibility of our site.</li>
+            <li>Make our content accessible to everyone, regardless of disability.</li>
+            <li>Welcome feedback to help us further enhance accessibility and accommodate diverse needs.</li>
         </ul>
 
         <ul>
             <li>
                 <h2>How you can help</h2>
             </li>
-            <li>&bull; Share your suggestions or accommodation requests by emailing us at <a
-                    href="mailto:ccadmin@rebeltec.net" target="_blank">ccadmin@rebeltec.net</a>.</li>
+            <li>Share your suggestions or accommodation requests by emailing us at <a href="mailto:ccadmin@rebeltec.net"
+                    target="_blank">ccadmin@rebeltec.net</a>.</li>
         </ul>
         <h2>Guidelines</h2>
         <ul>
@@ -150,6 +170,9 @@
 
     <!-- Fouc fix -->
     <script src="/js/fouc_fix.js"></script>
+
+    <!-- Hamburger menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn Functionality -->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>

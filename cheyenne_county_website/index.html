@@ -47,6 +47,26 @@
             <a class="grow" href="officials.html">Officials</a>
             <a class="grow" href="departments.html">Departments</a>
         </nav>
+        <!-- Hamburger menu -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle" aria-label="Hamburger Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <ul class="menu__box">
+                <li><img class="menu__logo" src="/assets/imgs/county_logo.webp" alt="Cheyenne County Logo"></li>
+                <li><a class="active menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item grow" href="about.html">About</a></li>
+                <li><a class="menu__item grow" href="officials.html">Officials</a></li>
+                <li><a class="menu__item grow" href="departments.html">Departments</a></li>
+                <li><a class="menu__item grow" href="jobs.html">Jobs</a></li>
+                <li><a class="menu__item grow" href="boards.html">Boards</a></li>
+                <li><a class="menu__item grow" href="districts.html">Districts</a></li>
+                <li><a class="menu__item grow" href="https://www.localendar.com/public/ccadmin"
+                        target="_blank">Calendar</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Nav main end -->
 
@@ -79,7 +99,7 @@
     <!-- Slideshow end -->
 
     <!-- Home -->
-    <section class="initial-content">
+    <section class="content">
         <header>
             <h1>Welcome</h1>
         </header>
@@ -104,7 +124,7 @@
 
     <hr class="border">
 
-    <div class="initial-content">
+    <div class="content">
         <header>
             <h2>Courthouse</h2>
         </header>
@@ -149,18 +169,18 @@
 
     <hr class="border">
 
-    <div class="initial-content">
+    <div class="content">
         <header>
             <h2>Notices</h2>
         </header>
 
-        <ul class="bulleted-list">
+        <ul class="list">
             <li>
                 <h3>Archery and Sports Shooting Range Board Member Openings</h3>
             </li>
-            <li>&bull; Annual Term</li>
-            <li>&bull; Must be 18 years of age or older</li>
-            <li>&bull; Must be a Cheyenne County, CO resident</li>
+            <li>Annual Term</li>
+            <li>Must be 18 years of age or older</li>
+            <li>Must be a Cheyenne County, CO resident</li>
         </ul>
 
         <ul>
@@ -175,6 +195,8 @@
             <li><a href="/assets/pdfs/county_equipment_notice.pdf" target="_blank">County
                     Equipment
                     Notice</a></li>
+        </ul>
+        <ul>
             <li>Legal publications for the County are published in the Kiowa County Independent newspaper.
             </li>
         </ul>
@@ -235,6 +257,9 @@
 
     <!-- Slideshow functionality-->
     <script src="/js/slideshow_auto.js"></script>
+
+    <!-- Hamburger Menu -->
+    <script src="/js/hamburger.js"></script>
 
     <!-- To top btn  functionality-->
     <button onclick="topFunction()" id="top-btn"><i class="fas fa-chevron-up grow"></i></button>
