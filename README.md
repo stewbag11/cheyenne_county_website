@@ -63,11 +63,6 @@ This repository showcases the complete rewrite of the Cheyenne County website, e
 ## Project Structure
 The project is organized to facilitate easy maintenance and updates, with a clear separation of frontend assets and a focus on scalability.
 
-## Installation and Setup
-- Clone the repository:
-   `git clone https://github.com/stewbag69/cheyenne_county_website.git`
-- View the website with a live server of your choice.
-
 ## Disclaimer
 This repository is made available for viewing purposes only. Redistribution, modification, or commercial use is not permitted.
 
