@@ -10,10 +10,11 @@ Welcome to the Cheyenne County Website repository, a project focused on achievin
 - [Before and After](#before-and-after)
   - [Home Page - Before](#home-page---before)
   - [Home Page - After](#home-page---after)
-  - [Home Page - Mobile Before](#home-page---mobile-before)
-  - [Home Page - Mobile After](#home-page---mobile-after)
   - [Departments Page - Before](#departments-page---before)
   - [Departments Page - After](#departments-page---after)
+- [Mobile](#mobile)
+  - [Home Page - Mobile](#home-page---mobile)
+- [Metrics](#metrics)
   - [Metrics - Before](#metrics---before)
   - [Metrics - After](#metrics---after)
 - [Project Structure](#project-structure)
@@ -42,18 +43,17 @@ This repository showcases the complete rewrite of the Cheyenne County website, e
 ### Home Page - After
 ![Home Page After](/screenshots/cheyenne_county_home_after.png?raw=true "Home Page After")
 
-### Home Page - Mobile Before
-![Home Page Mobile Before](/screenshots/cheyenne_county_home_mobile_before.png?raw=true "Home Page Mobile Before")
-
-### Home Page - Mobile After
-![Home Page Mobile After](/screenshots/cheyenne_county_home_mobile_after.png?raw=true "Home Page Mobile After")
-
 ### Departments Page - Before
 ![Departments Page Before](/screenshots/cheyenne_county_departments_before.png?raw=true "Departments Page Before")
 
 ### Departments Page - After
 ![Departments Page After](/screenshots/cheyenne_county_departments_after.png?raw=true "Departments Page After")
 
+## Mobile
+### Home Page - Mobile
+![Home Page Mobile After](/screenshots/cheyenne_county_home_mobile_after.png?raw=true "Home Page Mobile After")
+
+## Metrics
 ### Metrics - Before
 ![Metrics Before](/screenshots/old_website_desktop_metrics.png?raw=true "Metrics Before")
 
